@@ -17,11 +17,11 @@ const Items = ({ selectedSub, onBack , }) => {
                 {selectedSub.name}
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center">
                 {selectedSub.items.map((item) => (
                     <div
                         key={item.id}
-                        className="border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white"
+                        className="border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white w-72"
                     >
                         <img
                             className="w-full h-52 object-contain rounded-lg mb-3"

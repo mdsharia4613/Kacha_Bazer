@@ -16,12 +16,35 @@ const Root = () => {
             }
             return [...prevItem, {...product, quantity: 1}]
         })
+    };
+
+    const handleIncrease = (product) => {
+        setCartItems(prevItem => 
+            prevItem.map(item => item.id === product.id ? {
+                ...item, quantity: item.quantity + 1
+            } : item)
+        )
+    };
+
+    const handleDecrease = (product) => {
+        setCartItems(prevItem => 
+            prevItem.map(item => item.id === product.id ? {
+                ...item, quantity: item.quantity - 1
+            } : item)
+            .filter(item => item.quantity > 0)
+        )
     }
+    const handleRemove = (product) => {
+        setCartItems(prevItem => 
+            prevItem.filter(item => item.id !== product.id)
+        )
+    }
+
     const productCount = cartItems.length;
     
     return (
         <div>
-            <Navber productCount={productCount} cartItems={cartItems}></Navber>
+            <Navber productCount={productCount} cartItems={cartItems} handleIncrease={handleIncrease} handleDecrease={handleDecrease} handleRemove={handleRemove}></Navber>
             <Outlet context={{handleAddToCart}}></Outlet>
             <Footer></Footer>
         </div>

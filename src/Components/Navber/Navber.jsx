@@ -11,14 +11,12 @@ import { MdPrivacyTip } from "react-icons/md";
 import { FaFile } from "react-icons/fa";
 import { BiSolidErrorAlt } from "react-icons/bi";
 import { FaAngleDown } from "react-icons/fa6";
-
-
-
+import { TiDelete } from "react-icons/ti";
 import { User } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
-const Navber = ({ productCount, cartItems }) => {
+const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handleRemove }) => {
     const navLinkStyle = ({ isActive }) => isActive ? 'text-green-500 transition-all duration-500 bg-transparent' : 'hover:text-green-400 transition-all duration-500 hover:bg-transparent'
     const topLinks = (
         <>
@@ -272,113 +270,126 @@ const Navber = ({ productCount, cartItems }) => {
     const [showcart, setShowCart] = useState(false);
     return (
         <>
-            {/* 🔹 Top Info Bar */}
-            <div className="bg-[#f3f4f6] hidden md:block">
-                <div className="container mx-auto  flex justify-between items-center text-xs text-gray-500 py-2 px-10 font-medium">
-                    <p className="flex items-center gap-2">
-                        <MdOutlineWifiCalling3 />
-                        We are available 24/7, Need help?
-                        <span className="text-green-500 font-semibold">+012345697</span>
-                    </p>
-                    <ul className="flex items-center gap-5">{topLinks}</ul>
-                </div>
-            </div>
-
-            {/* 🔹 Main Navbar */}
-            <div className="bg-[#00bc7d]">
-                <div className="container mx-auto py-3 px-10 flex flex-col md:flex-row justify-between items-center gap-3 md:gap-6">
-
-                    {/* Logo */}
-                    <div className="flex items-center justify-center md:justify-start">
-                        <p className="flex items-center gap-3 font-bold text-2xl text-white">
-                            <FaShoppingBag fontSize={30} />
-                            <span className="leading-tight">
-                                KACHA <br /> BAZAR
-                            </span>
+           <div className="sticky top-0 w-full z-50 bg-white">
+                {/* 🔹 Top Info Bar */}
+                <div className="bg-[#f3f4f6] hidden md:block">
+                    <div className="container mx-auto  flex justify-between items-center text-xs text-gray-500 py-2 px-10 font-medium">
+                        <p className="flex items-center gap-2">
+                            <MdOutlineWifiCalling3 />
+                            We are available 24/7, Need help?
+                            <span className="text-green-500 font-semibold">+012345697</span>
                         </p>
-                    </div>
-
-                    {/* Search Bar */}
-                    <div className="w-full md:w-1/2">
-                        <div className="flex items-center justify-between bg-white rounded-lg py-2.5 px-4 shadow-sm">
-                            <input
-                                type="search"
-                                placeholder="Search for product (e.g. shirt, pant)"
-                                className="w-full bg-transparent px-2 outline-none border-none text-sm md:text-base"
-                            />
-                            <IoSearchOutline className="text-gray-400 text-lg md:text-xl" />
-                        </div>
-                    </div>
-
-                    {/* Right Side Icons */}
-                    <div className="hidden md:flex items-center gap-6 text-2xl text-white">
-                        <div className="relative">
-                            <HiMiniShoppingCart onClick={() => setShowCart(!showcart)} className="cursor-pointer hover:text-yellow-300 transition" />
-                            {productCount > 0 && (
-                                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-0.5 rounded-full">{productCount}</span>
-                            )}
-                            {showcart && (
-                                <div className="absolute bg-white top-8 p-3 rounded-lg shadow-lg z-50">
-                                   {cartItems.length === 0 ? (
-                                    <p>Your Cart is Empty</p>
-                                   ) : (
-                                    <>
-                                        <h3 className="text-black font-semibold">Shopping Cart</h3>
-
-                                        <ul>
-                                            {cartItems.map((item, index) => (
-                                                <li key={index} item={item} className="bg-gray-100 flex gap-3 p-3">
-                                                    <img className="w-10 h-12" src={item.image} alt="" />
-                                                    <div className="text-black">
-                                                        <h3 className="text-sm font-semibold">{item.name}</h3>
-                                                        <p className="text-sm">{item.price}</p>
-                                                    </div>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </>
-                                   )}
-                                </div>
-                            )}
-                        </div>
-                        <FaRegBell className="cursor-pointer hover:text-yellow-300 transition" />
-                        <User className="cursor-pointer hover:text-yellow-300 transition" />
+                        <ul className="flex items-center gap-5">{topLinks}</ul>
                     </div>
                 </div>
-            </div>
 
-            {/* 🔹 Bottom Navigation (DaisyUI) */}
-            <div className="shadow-sm ">
-                <div className="navbar px-6 container mx-auto">
-                    <div className="navbar-start">
-                        {/* Mobile Dropdown */}
-                        <div className="dropdown">
-                            <div tabIndex={0} role="" className=" lg:hidden">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                        d="M4 6h16M4 12h16M4 18h16" />
-                                </svg>
-                            </div>
-                            <ul tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow">
-                                {mainLinks}
-                            </ul>
+                {/* 🔹 Main Navbar */}
+                <div className="bg-[#00bc7d]">
+                    <div className="container mx-auto py-3 px-10 flex flex-col md:flex-row justify-between items-center gap-3 md:gap-6">
+
+                        {/* Logo */}
+                        <div className="flex items-center justify-center md:justify-start">
+                            <p className="flex items-center gap-3 font-bold text-2xl text-white">
+                                <FaShoppingBag fontSize={30} />
+                                <span className="leading-tight">
+                                    KACHA <br /> BAZAR
+                                </span>
+                            </p>
                         </div>
 
-                        {/* Desktop Menu */}
-                        <div className="hidden lg:flex">
-                            <ul className="menu menu-horizontal px-1 font-medium text-gray-700 ">
-                                {mainLinks}
-                            </ul>
+                        {/* Search Bar */}
+                        <div className="w-full md:w-1/2">
+                            <div className="flex items-center justify-between bg-white rounded-lg py-2.5 px-4 shadow-sm">
+                                <input
+                                    type="search"
+                                    placeholder="Search for product (e.g. shirt, pant)"
+                                    className="w-full bg-transparent px-2 outline-none border-none text-sm md:text-base"
+                                />
+                                <IoSearchOutline className="text-gray-400 text-lg md:text-xl" />
+                            </div>
+                        </div>
+
+                        {/* Right Side Icons */}
+                        <div className="hidden md:flex items-center gap-6 text-2xl text-white">
+                            <div className="relative">
+                                <HiMiniShoppingCart onClick={() => setShowCart(!showcart)} className="cursor-pointer hover:text-yellow-300 transition" />
+                                {productCount > 0 && (
+                                    <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-0.5 rounded-full">{productCount}</span>
+                                )}
+                                {showcart && (
+                                    <div className="absolute bg-white right-0 text-black top-8 p-3 rounded-lg shadow-lg z-50 w-72">
+                                        {cartItems.length === 0 ? (
+                                            <p className="text-center py-3">Your Cart is Empty</p>
+                                        ) : (
+                                            <>
+                                                <h3 className=" font-semibold border-b pb-2 mb-4">Shopping Cart</h3>
+
+                                                <ul className="">
+                                                    {cartItems.map((item, index) => (
+                                                        <li key={index} item={item} className="bg-gray-100  mb-3 flex items-center rounded gap-5 p-3">
+                                                            <img className="w-10 h-12 object-contain rounded" src={item.image} alt="" />
+                                                            <div className="text-sm flex-1 space-y-1.5">
+                                                                <h3 className=" font-semibold">{item.name}</h3>
+                                                                <p className="text-gray-600">
+                                                                    ${item.price} * {item.quantity} = {" "}
+                                                                    <span className="font-semibold text-black">${item.price * item.quantity}</span>
+                                                                </p>
+                                                                <div className="flex gap-3">
+                                                                    <button className="bg-gray-300 rounded px-2" onClick={() => handleIncrease(item)}>+</button>
+                                                                    <span>{item.quantity}</span>
+                                                                    <button className="bg-gray-300 rounded px-2" onClick={() => handleDecrease(item)}>-</button>
+                                                                </div>
+
+                                                            </div>
+                                                            <button className="text-red-500 hover:text-red-700 ml-auto" onClick={() => { handleRemove(item); setShowCart(false); }}> <TiDelete fontSize={20} /></button>
+
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </>
+                                        )}
+                                    </div>
+                                )}
+                            </div>
+                            <FaRegBell className="cursor-pointer hover:text-yellow-300 transition" />
+                            <User className="cursor-pointer hover:text-yellow-300 transition" />
                         </div>
                     </div>
+                </div>
 
-                    {/* Right Side (Bottom Bar) */}
-                    <div className="navbar-end">
-                        <ul className="flex items-center gap-6 text-sm text-gray-700 font-medium pr-3">
-                            {rightSide}
-                        </ul>
+                {/* 🔹 Bottom Navigation (DaisyUI) */}
+                <div className="shadow-sm ">
+                    <div className="navbar px-6 container mx-auto">
+                        <div className="navbar-start">
+                            {/* Mobile Dropdown */}
+                            <div className="dropdown">
+                                <div tabIndex={0} role="" className=" lg:hidden">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                            d="M4 6h16M4 12h16M4 18h16" />
+                                    </svg>
+                                </div>
+                                <ul tabIndex={0}
+                                    className="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow">
+                                    {mainLinks}
+                                </ul>
+                            </div>
+
+                            {/* Desktop Menu */}
+                            <div className="hidden lg:flex">
+                                <ul className="menu menu-horizontal px-1 font-medium text-gray-700 ">
+                                    {mainLinks}
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Right Side (Bottom Bar) */}
+                        <div className="navbar-end">
+                            <ul className="flex items-center gap-6 text-sm text-gray-700 font-medium pr-3">
+                                {rightSide}
+                            </ul>
+                        </div>
                     </div>
                 </div>
            </div>
