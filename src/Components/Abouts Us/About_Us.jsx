@@ -3,6 +3,7 @@ import bammer from '../../assets/about/banner.jpg';
 import img1 from '../../assets/about/img-1.jpeg';
 import img2 from '../../assets/about/img-2.jpeg';
 import img3 from '../../assets/about/img-3.jpeg';
+import img4 from '../../assets/about/img-4.jpg'
 const About_Us = () => {
     return (
         <>
@@ -61,6 +62,11 @@ const About_Us = () => {
                         Appropriately visualize market-driven data before one-to-one scenarios. Collaboratively productize multifunctional ROI through intuitive supply chains. Enthusiastically seize revolutionary value and process-centric services. Competently harness intuitive information after interoperable markets. Interactively revolutionize future-proof value before granular sources. Dynamically embrace diverse customer service and installed base paradigms. Credibly seize enterprise-wide experiences for end-to-end data. Professionally brand flexible alignments and cost effective architectures. Enthusiastically incentivize seamless communities with seamlessly facilitate revolutionary metrics with strategic theme areas.
                     </p>
                 </div>
+
+                <div className='mt-10 mb-10'>
+                    <img className='w-full  object-contain rounded-xl ' src={img4} alt="About Us" />
+                </div>
+
 
             </div>
 
