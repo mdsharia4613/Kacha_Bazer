@@ -317,6 +317,29 @@ const Navber = ({ productCount, cartItems }) => {
                             {productCount > 0 && (
                                 <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-0.5 rounded-full">{productCount}</span>
                             )}
+                            {showcart && (
+                                <div className="absolute bg-white top-8 p-3 rounded-lg shadow-lg z-50">
+                                   {cartItems.length === 0 ? (
+                                    <p>Your Cart is Empty</p>
+                                   ) : (
+                                    <>
+                                        <h3 className="text-black font-semibold">Shopping Cart</h3>
+
+                                        <ul>
+                                            {cartItems.map((item, index) => (
+                                                <li key={index} item={item} className="bg-gray-100 flex gap-3 p-3">
+                                                    <img className="w-10 h-12" src={item.image} alt="" />
+                                                    <div className="text-black">
+                                                        <h3 className="text-sm font-semibold">{item.name}</h3>
+                                                        <p className="text-sm">{item.price}</p>
+                                                    </div>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </>
+                                   )}
+                                </div>
+                            )}
                         </div>
                         <FaRegBell className="cursor-pointer hover:text-yellow-300 transition" />
                         <User className="cursor-pointer hover:text-yellow-300 transition" />

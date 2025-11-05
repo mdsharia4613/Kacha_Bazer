@@ -2,7 +2,7 @@ import { TiArrowLeft } from "react-icons/ti";
 import { useOutletContext } from "react-router-dom";
 
 
-const Items = ({ selectedSub, onBack , product}) => {
+const Items = ({ selectedSub, onBack , }) => {
     const {handleAddToCart} = useOutletContext();
     return (
         <div className="container mx-auto px-6 py-8">
