@@ -13,7 +13,7 @@ import { BiSolidErrorAlt } from "react-icons/bi";
 import { FaAngleDown } from "react-icons/fa6";
 import { TiDelete } from "react-icons/ti";
 import { User } from "lucide-react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 
 const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handleRemove }) => {
@@ -36,7 +36,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                 <NavLink to="/" className={navLinkStyle}>Categories < FaAngleDown /></NavLink>
                 <ul className="dropdown-content menu bg-base-100 rounded-box w-60 p-2 shadow-lg text-gray-700 space-y-3 ">
                     <li>
-                        <NavLink to="/fish-meat" className="flex items-center justify-between">
+                        <NavLink to="category/Fish & Meat" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
@@ -50,7 +50,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/fruits-vegetables" className="flex items-center justify-between">
+                        <NavLink to="category/fruits & vegetables" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/415/415733.png"
@@ -64,7 +64,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/cooking-essentials" className="flex items-center justify-between">
+                        <NavLink to="category/cooking & essentials" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/3081/3081971.png"
@@ -78,7 +78,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/biscuits-cakes" className="flex items-center justify-between">
+                        <NavLink to="category/biscuits & cakes" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
@@ -92,7 +92,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/household-tools" className="flex items-center justify-between">
+                        <NavLink to="category/household & tools" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/3074/3074903.png"
@@ -106,7 +106,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/pet-care" className="flex items-center justify-between">
+                        <NavLink to="category/pet & care" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/616/616408.png"
@@ -120,7 +120,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/beauty-health" className="flex items-center justify-between">
+                        <NavLink to="category/beauty & health" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/3771/3771417.png"
@@ -134,7 +134,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/jam-jelly" className="flex items-center justify-between">
+                        <NavLink to="category/jam & jelly" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/937/937944.png"
@@ -148,7 +148,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/milk-dairy" className="flex items-center justify-between">
+                        <NavLink to="category/milk & dairy" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/3075/3075973.png"
@@ -162,7 +162,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/drinks" className="flex items-center justify-between">
+                        <NavLink to="category/drinks" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/937/937909.png"
@@ -176,7 +176,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     </li>
 
                     <li>
-                        <NavLink to="/breakfast" className="flex items-center justify-between">
+                        <NavLink to="category/breakfast" className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <img
                                     src="https://cdn-icons-png.flaticon.com/512/1046/1046786.png"
@@ -288,14 +288,15 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                     <div className="container mx-auto py-3 px-10 flex flex-col md:flex-row justify-between items-center gap-3 md:gap-6">
 
                         {/* Logo */}
-                        <div className="flex items-center justify-center md:justify-start">
+                        <Link to='/' className="cursor-pointer flex items-center justify-center md:justify-start">
                             <p className="flex items-center gap-3 font-bold text-2xl text-white">
                                 <FaShoppingBag fontSize={30} />
                                 <span className="leading-tight">
                                     KACHA <br /> BAZAR
-                                </span>
-                            </p>
-                        </div>
+                                    </span>
+                                </p>
+                        
+                        </Link>
 
                         {/* Search Bar */}
                         <div className="w-full md:w-1/2">

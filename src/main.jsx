@@ -8,6 +8,7 @@ import {
 import Root from './Root/Root';
 import Home from './Components/Home/Home';
 import About_Us from './Components/Abouts Us/About_Us';
+import CategoryProducts from './Components/CategoryProducts/CategoryProducts';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About_Us></About_Us>
+      },
+      {
+        path: "category/:categoryName",
+        element: <CategoryProducts></CategoryProducts>
       }
     ]
   },

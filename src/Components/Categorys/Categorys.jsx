@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { FaAngleRight } from "react-icons/fa6"; import Items from "./Items";
+import { useNavigate } from "react-router-dom";
 
 
 const Categorys = () => {
     const [categorys , setCategorys] = useState([]);
     const [selectedSub, setSelectedSub] = useState(null);
+    const navigate = useNavigate();
 
     useEffect( () => {
         fetch('/category_data.json')
@@ -26,7 +28,7 @@ const Categorys = () => {
                                         
                                    </div>
                                    <div>
-                                        <h3 className="text-xl font-semibold mb-3">{category.category}</h3>
+                                        <h3 onClick={() => navigate(`/category/${category.category}`)} className="text-xl cursor-pointer font-semibold mb-3">{category.category}</h3>
 
                                         {/* loop subCategory */}
                                         <ul>
