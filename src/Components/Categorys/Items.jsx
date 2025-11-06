@@ -5,7 +5,7 @@ import { useOutletContext } from "react-router-dom";
 const Items = ({ selectedSub, onBack , }) => {
     const {handleAddToCart} = useOutletContext();
     return (
-        <div className="container mx-auto px-6 py-8">
+        <div className="container mx-auto px-6 py-5">
             <button
                 onClick={onBack}
                 className="flex items-center gap-1 bg-cyan-500 text-white px-4 py-2 rounded-md hover:bg-cyan-600 transition duration-200 mb-6"
@@ -17,14 +17,14 @@ const Items = ({ selectedSub, onBack , }) => {
                 {selectedSub.name}
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center">
+            <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center">
                 {selectedSub.items.map((item) => (
                     <div
                         key={item.id}
-                        className="border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white w-72"
+                        className="border relative border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white w-72"
                     >
                         <img
-                            className="w-full h-52 object-contain rounded-lg mb-3"
+                            className="w-full h-44 pt-2 object-contain rounded-lg mb-3"
                             src={item.image}
                             alt={item.name}
                         />
@@ -34,9 +34,9 @@ const Items = ({ selectedSub, onBack , }) => {
 
                         <p className="text-lg font-bold text-cyan-600">${item.price}</p>
                         <p
-                            className={`text-sm mt-1 ${item.stockStatus === "In Stock"
-                                    ? "text-green-500"
-                                    : "text-red-500"
+                            className={`absolute -top-1 text-xs font-medium mt-1 text-white px-0.5 py-0.5 left-0  rounded-tl-xl rounded-br-xl ${item.stockStatus === "In Stock"
+                                    ? "bg-green-500"
+                                    : "bg-red-500"
                                 }`}
                         >
                             {item.stockStatus}

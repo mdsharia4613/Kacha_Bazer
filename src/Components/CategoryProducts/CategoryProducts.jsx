@@ -9,15 +9,23 @@ const CategoryProducts = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        const category = productData.find(cat => cat.category.toLowerCase() === categoryName.toLowerCase());
-        if(category){
-            const allItems =category.subcategories.flatMap(sub => sub.items);
+        const category = productData.find(cat =>
+            cat.category
+                .toLowerCase()
+                .replace(/ & /g, '-')
+                .replace(/\s+/g, '-') === categoryName.toLowerCase()
+        );
+
+        if (category) {
+            const allItems = category.subcategories.flatMap(sub => sub.items);
             setItems(allItems);
+        } else {
+            setItems([]); // যদি কিছু না মেলে
         }
-    } ,[categoryName])
+    }, [categoryName]);
     const {handleAddToCart} = useOutletContext();
     return (
-        <div>
+        <div className="container mx-auto">
             <h2 className="font-semibold text-2xl">{categoryName}</h2>
             <div>
                 {items.length === 0 ? (
