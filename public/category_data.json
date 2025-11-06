@@ -15,7 +15,8 @@
             "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1001"
+            "stockCode": "STK-1001",
+            "rating": 3.6
           },
           {
             "id": 1002,
@@ -25,7 +26,8 @@
             "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.3
           },
           {
             "id": 1003,
@@ -35,7 +37,8 @@
             "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.7
           },
           {
             "id": 1004,
@@ -45,7 +48,8 @@
             "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1004"
+            "stockCode": "STK-1004",
+            "rating": 4.7
           },
           {
             "id": 1005,
@@ -55,7 +59,8 @@
             "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1005"
+            "stockCode": "STK-1005",
+            "rating": 3.5
           },
           {
             "id": 1006,
@@ -65,7 +70,8 @@
             "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1006"
+            "stockCode": "STK-1006",
+            "rating": 4.9
           },
           {
             "id": 1007,
@@ -75,7 +81,8 @@
             "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1007"
+            "stockCode": "STK-1007",
+            "rating": 4.3
           },
           {
             "id": 1008,
@@ -85,7 +92,8 @@
             "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.0
           },
           {
             "id": 1009,
@@ -95,7 +103,8 @@
             "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1009"
+            "stockCode": "STK-1009",
+            "rating": 4.1
           },
           {
             "id": 1010,
@@ -105,7 +114,8 @@
             "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1010"
+            "stockCode": "STK-1010",
+            "rating": 3.4
           },
           {
             "id": 1011,
@@ -115,7 +125,8 @@
             "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1011"
+            "stockCode": "STK-1011",
+            "rating": 3.3
           },
           {
             "id": 1012,
@@ -125,7 +136,8 @@
             "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1012"
+            "stockCode": "STK-1012",
+            "rating": 4.8
           },
           {
             "id": 1013,
@@ -135,7 +147,8 @@
             "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1013"
+            "stockCode": "STK-1013",
+            "rating": 4.7
           },
           {
             "id": 1014,
@@ -145,7 +158,8 @@
             "image": "fhttps://i.ibb.co.com/QvtngV39/r-2.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1014"
+            "stockCode": "STK-1014",
+            "rating": 3.7
           },
           {
             "id": 1015,
@@ -155,7 +169,8 @@
             "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1015"
+            "stockCode": "STK-1015",
+            "rating": 4.6
           }
         ]
       },
@@ -170,7 +185,8 @@
             "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.1
           },
           {
             "id": 1017,
@@ -180,7 +196,8 @@
             "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1017"
+            "stockCode": "STK-1017",
+            "rating": 3.9
           },
           {
             "id": 1018,
@@ -190,7 +207,8 @@
             "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1018"
+            "stockCode": "STK-1018",
+            "rating": 4.4
           },
           {
             "id": 1019,
@@ -200,7 +218,8 @@
             "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1019"
+            "stockCode": "STK-1019",
+            "rating": 3.6
           },
           {
             "id": 1020,
@@ -210,7 +229,8 @@
             "image": "https://i.ibb.co.com/VcWPfhRC/beef-cut.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1020"
+            "stockCode": "STK-1020",
+            "rating": 4.0
           },
           {
             "id": 1021,
@@ -220,7 +240,8 @@
             "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1021"
+            "stockCode": "STK-1021",
+            "rating": 4.5
           },
           {
             "id": 1022,
@@ -230,7 +251,8 @@
             "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1022"
+            "stockCode": "STK-1022",
+            "rating": 3.2
           },
           {
             "id": 1023,
@@ -240,7 +262,8 @@
             "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1023"
+            "stockCode": "STK-1023",
+            "rating": 3.8
           },
           {
             "id": 1024,
@@ -250,7 +273,8 @@
             "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1024"
+            "stockCode": "STK-1024",
+            "rating": 4.6
           },
           {
             "id": 1025,
@@ -260,7 +284,8 @@
             "image": "https://i.ibb.co.com/VcWPfhRC/beef-cut.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1025"
+            "stockCode": "STK-1025",
+            "rating": 3.6
           },
           {
             "id": 1026,
@@ -270,7 +295,8 @@
             "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1026"
+            "stockCode": "STK-1026",
+            "rating": 3.0
           },
           {
             "id": 1027,
@@ -280,7 +306,8 @@
             "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           },
           {
             "id": 1028,
@@ -290,7 +317,8 @@
             "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1028"
+            "stockCode": "STK-1028",
+            "rating": 3.9
           },
           {
             "id": 1029,
@@ -300,7 +328,8 @@
             "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1029"
+            "stockCode": "STK-1029",
+            "rating": 3.4
           },
           {
             "id": 1030,
@@ -310,7 +339,8 @@
             "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           }
         ]
       }
@@ -332,7 +362,8 @@
             "image": "https://i.ibb.co.com/j99Nvm3N/cerelce.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.6
           },
           {
             "id": 1032,
@@ -342,7 +373,8 @@
             "image": "https://i.ibb.co.com/mVhz9TKT/baby-parr.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1032"
+            "stockCode": "STK-1032",
+            "rating": 3.4
           },
           {
             "id": 1033,
@@ -352,7 +384,8 @@
             "image": "https://i.ibb.co.com/j99Nvm3N/cerelce.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 5.0
           },
           {
             "id": 1034,
@@ -362,7 +395,8 @@
             "image": "https://i.ibb.co.com/j99Nvm3N/cerelce.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1034"
+            "stockCode": "STK-1034",
+            "rating": 3.3
           },
           {
             "id": 1035,
@@ -372,7 +406,8 @@
             "image": "https://i.ibb.co.com/j99Nvm3N/cerelce.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1035"
+            "stockCode": "STK-1035",
+            "rating": 3.2
           },
           {
             "id": 1036,
@@ -382,7 +417,8 @@
             "image": "https://i.ibb.co.com/mVhz9TKT/baby-parr.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           },
           {
             "id": 1037,
@@ -392,7 +428,8 @@
             "image": "https://i.ibb.co.com/j99Nvm3N/cerelce.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1037"
+            "stockCode": "STK-1037",
+            "rating": 4.2
           },
           {
             "id": 1038,
@@ -402,7 +439,8 @@
             "image": "https://i.ibb.co.com/j99Nvm3N/cerelce.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.7
           },
           {
             "id": 1039,
@@ -412,7 +450,8 @@
             "image": "fruits_vegetables_baby_food_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1039"
+            "stockCode": "STK-1039",
+            "rating": 3.1
           },
           {
             "id": 1040,
@@ -422,7 +461,8 @@
             "image": "https://i.ibb.co.com/j99Nvm3N/cerelce.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1040"
+            "stockCode": "STK-1040",
+            "rating": 3.3
           },
           {
             "id": 1041,
@@ -432,7 +472,8 @@
             "image": "https://i.ibb.co.com/j99Nvm3N/cerelce.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1041"
+            "stockCode": "STK-1041",
+            "rating": 3.8
           },
           {
             "id": 1042,
@@ -442,7 +483,8 @@
             "image": "fruits_vegetables_baby_food_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1043,
@@ -452,7 +494,8 @@
             "image": "fruits_vegetables_baby_food_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1043"
+            "stockCode": "STK-1043",
+            "rating": 4.6
           },
           {
             "id": 1044,
@@ -462,7 +505,8 @@
             "image": "fruits_vegetables_baby_food_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1044"
+            "stockCode": "STK-1044",
+            "rating": 3.2
           },
           {
             "id": 1045,
@@ -472,7 +516,8 @@
             "image": "fruits_vegetables_baby_food_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           }
         ]
       },
@@ -487,7 +532,8 @@
             "image": "https://i.ibb.co.com/3mpqTn6r/mango.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1046"
+            "stockCode": "STK-1046",
+            "rating": 3.2
           },
           {
             "id": 1047,
@@ -497,7 +543,8 @@
             "image": "https://i.ibb.co.com/0jnJrBbb/apple.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1047"
+            "stockCode": "STK-1047",
+            "rating": 3.4
           },
           {
             "id": 1048,
@@ -507,7 +554,8 @@
             "image": "https://i.ibb.co.com/5hc2zyqh/banena.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1048"
+            "stockCode": "STK-1048",
+            "rating": 4.8
           },
           {
             "id": 1049,
@@ -517,7 +565,8 @@
             "image": "https://i.ibb.co.com/4w227Wnn/orange.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1050,
@@ -527,7 +576,8 @@
             "image": "https://i.ibb.co.com/vv1dpj27/papeyaa.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1050"
+            "stockCode": "STK-1050",
+            "rating": 4.3
           },
           {
             "id": 1051,
@@ -537,7 +587,8 @@
             "image": "https://i.ibb.co.com/4w4zCpZr/gave.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1051"
+            "stockCode": "STK-1051",
+            "rating": 3.6
           },
           {
             "id": 1052,
@@ -547,7 +598,8 @@
             "image": "https://i.ibb.co.com/SLG8gxZ/orangle.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.2
           },
           {
             "id": 1053,
@@ -557,7 +609,8 @@
             "image": "fruits_vegetables_fresh_fruit_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1053"
+            "stockCode": "STK-1053",
+            "rating": 5.0
           },
           {
             "id": 1054,
@@ -567,7 +620,8 @@
             "image": "fruits_vegetables_fresh_fruit_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.0
           },
           {
             "id": 1055,
@@ -577,7 +631,8 @@
             "image": "fruits_vegetables_fresh_fruit_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1055"
+            "stockCode": "STK-1055",
+            "rating": 3.6
           },
           {
             "id": 1056,
@@ -587,7 +642,8 @@
             "image": "fruits_vegetables_fresh_fruit_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1056"
+            "stockCode": "STK-1056",
+            "rating": 3.9
           },
           {
             "id": 1057,
@@ -597,7 +653,8 @@
             "image": "fruits_vegetables_fresh_fruit_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1057"
+            "stockCode": "STK-1057",
+            "rating": 3.3
           },
           {
             "id": 1058,
@@ -607,7 +664,8 @@
             "image": "fruits_vegetables_fresh_fruit_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.2
           },
           {
             "id": 1059,
@@ -617,7 +675,8 @@
             "image": "fruits_vegetables_fresh_fruit_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1059"
+            "stockCode": "STK-1059",
+            "rating": 4.3
           },
           {
             "id": 1060,
@@ -627,7 +686,8 @@
             "image": "fruits_vegetables_fresh_fruit_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1060"
+            "stockCode": "STK-1060",
+            "rating": 4.0
           }
         ]
       }
@@ -649,7 +709,8 @@
             "image": "https://i.ibb.co.com/WW5F2rkj/atta.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1061"
+            "stockCode": "STK-1061",
+            "rating": 4.5
           },
           {
             "id": 1062,
@@ -659,7 +720,8 @@
             "image": "https://i.ibb.co.com/1tfVrF22/maida.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1062"
+            "stockCode": "STK-1062",
+            "rating": 4.3
           },
           {
             "id": 1063,
@@ -669,7 +731,8 @@
             "image": "https://i.ibb.co.com/BmksD02/suji.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1063"
+            "stockCode": "STK-1063",
+            "rating": 3.4
           },
           {
             "id": 1064,
@@ -679,7 +742,8 @@
             "image": "https://i.ibb.co.com/SDJpB1kB/beson.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1064"
+            "stockCode": "STK-1064",
+            "rating": 4.7
           },
           {
             "id": 1065,
@@ -689,7 +753,8 @@
             "image": "https://i.ibb.co.com/n8fWcRrs/rich.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1065"
+            "stockCode": "STK-1065",
+            "rating": 4.5
           },
           {
             "id": 1066,
@@ -699,7 +764,8 @@
             "image": "cooking_essentials_flour_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1066"
+            "stockCode": "STK-1066",
+            "rating": 3.5
           },
           {
             "id": 1067,
@@ -709,7 +775,8 @@
             "image": "cooking_essentials_flour_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1067"
+            "stockCode": "STK-1067",
+            "rating": 3.9
           },
           {
             "id": 1068,
@@ -719,7 +786,8 @@
             "image": "cooking_essentials_flour_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1069,
@@ -729,7 +797,8 @@
             "image": "cooking_essentials_flour_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1069"
+            "stockCode": "STK-1069",
+            "rating": 3.2
           },
           {
             "id": 1070,
@@ -739,7 +808,8 @@
             "image": "cooking_essentials_flour_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.6
           },
           {
             "id": 1071,
@@ -749,7 +819,8 @@
             "image": "cooking_essentials_flour_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1071"
+            "stockCode": "STK-1071",
+            "rating": 3.0
           },
           {
             "id": 1072,
@@ -759,7 +830,8 @@
             "image": "cooking_essentials_flour_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1072"
+            "stockCode": "STK-1072",
+            "rating": 4.0
           },
           {
             "id": 1073,
@@ -769,7 +841,8 @@
             "image": "cooking_essentials_flour_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1073"
+            "stockCode": "STK-1073",
+            "rating": 3.3
           },
           {
             "id": 1074,
@@ -779,7 +852,8 @@
             "image": "cooking_essentials_flour_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1074"
+            "stockCode": "STK-1074",
+            "rating": 3.9
           },
           {
             "id": 1075,
@@ -789,7 +863,8 @@
             "image": "cooking_essentials_flour_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.5
           }
         ]
       },
@@ -804,7 +879,8 @@
             "image": "https://i.ibb.co.com/tpNBCkHr/Mustard-Oil.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.9
           },
           {
             "id": 1077,
@@ -814,7 +890,8 @@
             "image": "https://i.ibb.co.com/NhNyr3B/Soybean-Oil.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1077"
+            "stockCode": "STK-1077",
+            "rating": 3.5
           },
           {
             "id": 1078,
@@ -824,7 +901,8 @@
             "image": "https://i.ibb.co.com/MDhYkybM/Sunflower-Oil.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1078"
+            "stockCode": "STK-1078",
+            "rating": 4.2
           },
           {
             "id": 1079,
@@ -834,7 +912,8 @@
             "image": "https://i.ibb.co.com/mrmHRcmz/Olive-Oil-Extra-Virgin.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.1
           },
           {
             "id": 1080,
@@ -844,7 +923,8 @@
             "image": "https://i.ibb.co.com/zWfZJhDX/Palm-Oil.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1080"
+            "stockCode": "STK-1080",
+            "rating": 4.6
           },
           {
             "id": 1081,
@@ -854,7 +934,8 @@
             "image": "https://i.ibb.co.com/R4BXZmnj/Rice-Bran-Oil.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1081"
+            "stockCode": "STK-1081",
+            "rating": 4.4
           },
           {
             "id": 1082,
@@ -864,7 +945,8 @@
             "image": "https://i.ibb.co.com/C5Kwx95z/Canola-Oil.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1083,
@@ -874,7 +956,8 @@
             "image": "cooking_essentials_oil_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1083"
+            "stockCode": "STK-1083",
+            "rating": 4.0
           },
           {
             "id": 1084,
@@ -884,7 +967,8 @@
             "image": "cooking_essentials_oil_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1084"
+            "stockCode": "STK-1084",
+            "rating": 4.3
           },
           {
             "id": 1085,
@@ -894,7 +978,8 @@
             "image": "cooking_essentials_oil_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.6
           },
           {
             "id": 1086,
@@ -904,7 +989,8 @@
             "image": "cooking_essentials_oil_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.1
           },
           {
             "id": 1087,
@@ -914,7 +1000,8 @@
             "image": "cooking_essentials_oil_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1087"
+            "stockCode": "STK-1087",
+            "rating": 4.6
           },
           {
             "id": 1088,
@@ -924,7 +1011,8 @@
             "image": "cooking_essentials_oil_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.9
           },
           {
             "id": 1089,
@@ -934,7 +1022,8 @@
             "image": "cooking_essentials_oil_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1089"
+            "stockCode": "STK-1089",
+            "rating": 4.0
           },
           {
             "id": 1090,
@@ -944,7 +1033,8 @@
             "image": "cooking_essentials_oil_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           }
         ]
       }
@@ -966,7 +1056,8 @@
             "image": "https://i.ibb.co.com/q3tFJkNv/Marie-Biscuits.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1091"
+            "stockCode": "STK-1091",
+            "rating": 4.7
           },
           {
             "id": 1092,
@@ -976,7 +1067,8 @@
             "image": "https://i.ibb.co.com/h1h5ZH52/Cream-Biscuits.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1093,
@@ -986,7 +1078,8 @@
             "image": "https://i.ibb.co.com/JRD3nCm2/Chocolate-Chip-Cookies.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1093"
+            "stockCode": "STK-1093",
+            "rating": 4.3
           },
           {
             "id": 1094,
@@ -996,7 +1089,8 @@
             "image": "https://i.ibb.co.com/XxZHBWKq/Butter-Cookies.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1094"
+            "stockCode": "STK-1094",
+            "rating": 3.8
           },
           {
             "id": 1095,
@@ -1006,7 +1100,8 @@
             "image": "https://i.ibb.co.com/Lh9bC12H/Salted-Crackers.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           },
           {
             "id": 1096,
@@ -1016,7 +1111,8 @@
             "image": "https://i.ibb.co.com/6cvWmHKT/download-Digestive-Biscuits.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1096"
+            "stockCode": "STK-1096",
+            "rating": 4.9
           },
           {
             "id": 1097,
@@ -1026,7 +1122,8 @@
             "image": "https://i.ibb.co.com/BVkP8P4P/Oat-Cookies.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1097"
+            "stockCode": "STK-1097",
+            "rating": 4.4
           },
           {
             "id": 1098,
@@ -1036,7 +1133,8 @@
             "image": "biscuits_cakes_biscuits_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1098"
+            "stockCode": "STK-1098",
+            "rating": 4.2
           },
           {
             "id": 1099,
@@ -1046,7 +1144,8 @@
             "image": "biscuits_cakes_biscuits_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1099"
+            "stockCode": "STK-1099",
+            "rating": 4.5
           },
           {
             "id": 1100,
@@ -1056,7 +1155,8 @@
             "image": "biscuits_cakes_biscuits_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1100"
+            "stockCode": "STK-1100",
+            "rating": 4.0
           },
           {
             "id": 1101,
@@ -1066,7 +1166,8 @@
             "image": "biscuits_cakes_biscuits_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1101"
+            "stockCode": "STK-1101",
+            "rating": 4.7
           },
           {
             "id": 1102,
@@ -1076,7 +1177,8 @@
             "image": "biscuits_cakes_biscuits_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1102"
+            "stockCode": "STK-1102",
+            "rating": 3.1
           },
           {
             "id": 1103,
@@ -1086,7 +1188,8 @@
             "image": "biscuits_cakes_biscuits_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1103"
+            "stockCode": "STK-1103",
+            "rating": 4.9
           },
           {
             "id": 1104,
@@ -1096,7 +1199,8 @@
             "image": "biscuits_cakes_biscuits_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1104"
+            "stockCode": "STK-1104",
+            "rating": 4.8
           },
           {
             "id": 1105,
@@ -1106,7 +1210,8 @@
             "image": "biscuits_cakes_biscuits_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1105"
+            "stockCode": "STK-1105",
+            "rating": 4.3
           }
         ]
       },
@@ -1121,7 +1226,8 @@
             "image": "biscuits_cakes_cakes_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1106"
+            "stockCode": "STK-1106",
+            "rating": 4.9
           },
           {
             "id": 1107,
@@ -1131,7 +1237,8 @@
             "image": "biscuits_cakes_cakes_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1107"
+            "stockCode": "STK-1107",
+            "rating": 4.8
           },
           {
             "id": 1108,
@@ -1141,7 +1248,8 @@
             "image": "biscuits_cakes_cakes_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1108"
+            "stockCode": "STK-1108",
+            "rating": 3.7
           },
           {
             "id": 1109,
@@ -1151,7 +1259,8 @@
             "image": "biscuits_cakes_cakes_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1109"
+            "stockCode": "STK-1109",
+            "rating": 3.6
           },
           {
             "id": 1110,
@@ -1161,7 +1270,8 @@
             "image": "biscuits_cakes_cakes_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1110"
+            "stockCode": "STK-1110",
+            "rating": 3.6
           },
           {
             "id": 1111,
@@ -1171,7 +1281,8 @@
             "image": "biscuits_cakes_cakes_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.0
           },
           {
             "id": 1112,
@@ -1181,7 +1292,8 @@
             "image": "biscuits_cakes_cakes_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1112"
+            "stockCode": "STK-1112",
+            "rating": 4.1
           },
           {
             "id": 1113,
@@ -1191,7 +1303,8 @@
             "image": "biscuits_cakes_cakes_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1113"
+            "stockCode": "STK-1113",
+            "rating": 4.3
           },
           {
             "id": 1114,
@@ -1201,7 +1314,8 @@
             "image": "biscuits_cakes_cakes_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1114"
+            "stockCode": "STK-1114",
+            "rating": 4.1
           },
           {
             "id": 1115,
@@ -1211,7 +1325,8 @@
             "image": "biscuits_cakes_cakes_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.5
           },
           {
             "id": 1116,
@@ -1221,7 +1336,8 @@
             "image": "biscuits_cakes_cakes_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.6
           },
           {
             "id": 1117,
@@ -1231,7 +1347,8 @@
             "image": "biscuits_cakes_cakes_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1117"
+            "stockCode": "STK-1117",
+            "rating": 3.9
           },
           {
             "id": 1118,
@@ -1241,7 +1358,8 @@
             "image": "biscuits_cakes_cakes_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1118"
+            "stockCode": "STK-1118",
+            "rating": 3.8
           },
           {
             "id": 1119,
@@ -1251,7 +1369,8 @@
             "image": "biscuits_cakes_cakes_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1119"
+            "stockCode": "STK-1119",
+            "rating": 3.6
           },
           {
             "id": 1120,
@@ -1261,7 +1380,8 @@
             "image": "biscuits_cakes_cakes_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.1
           }
         ]
       }
@@ -1283,7 +1403,8 @@
             "image": "household_tools_water_filter_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1121"
+            "stockCode": "STK-1121",
+            "rating": 4.7
           },
           {
             "id": 1122,
@@ -1293,7 +1414,8 @@
             "image": "household_tools_water_filter_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1122"
+            "stockCode": "STK-1122",
+            "rating": 3.4
           },
           {
             "id": 1123,
@@ -1303,7 +1425,8 @@
             "image": "household_tools_water_filter_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1123"
+            "stockCode": "STK-1123",
+            "rating": 3.7
           },
           {
             "id": 1124,
@@ -1313,7 +1436,8 @@
             "image": "household_tools_water_filter_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.9
           },
           {
             "id": 1125,
@@ -1323,7 +1447,8 @@
             "image": "household_tools_water_filter_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1125"
+            "stockCode": "STK-1125",
+            "rating": 3.8
           },
           {
             "id": 1126,
@@ -1333,7 +1458,8 @@
             "image": "household_tools_water_filter_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.1
           },
           {
             "id": 1127,
@@ -1343,7 +1469,8 @@
             "image": "household_tools_water_filter_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1127"
+            "stockCode": "STK-1127",
+            "rating": 3.1
           },
           {
             "id": 1128,
@@ -1353,7 +1480,8 @@
             "image": "household_tools_water_filter_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1128"
+            "stockCode": "STK-1128",
+            "rating": 3.2
           },
           {
             "id": 1129,
@@ -1363,7 +1491,8 @@
             "image": "household_tools_water_filter_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1129"
+            "stockCode": "STK-1129",
+            "rating": 3.8
           },
           {
             "id": 1130,
@@ -1373,7 +1502,8 @@
             "image": "household_tools_water_filter_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1130"
+            "stockCode": "STK-1130",
+            "rating": 4.5
           },
           {
             "id": 1131,
@@ -1383,7 +1513,8 @@
             "image": "household_tools_water_filter_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1131"
+            "stockCode": "STK-1131",
+            "rating": 4.3
           },
           {
             "id": 1132,
@@ -1393,7 +1524,8 @@
             "image": "household_tools_water_filter_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1132"
+            "stockCode": "STK-1132",
+            "rating": 4.9
           },
           {
             "id": 1133,
@@ -1403,7 +1535,8 @@
             "image": "household_tools_water_filter_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1133"
+            "stockCode": "STK-1133",
+            "rating": 4.8
           },
           {
             "id": 1134,
@@ -1413,7 +1546,8 @@
             "image": "household_tools_water_filter_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1134"
+            "stockCode": "STK-1134",
+            "rating": 4.7
           },
           {
             "id": 1135,
@@ -1423,7 +1557,8 @@
             "image": "household_tools_water_filter_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1135"
+            "stockCode": "STK-1135",
+            "rating": 3.5
           }
         ]
       },
@@ -1438,7 +1573,8 @@
             "image": "household_tools_cleaning_tools_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1136"
+            "stockCode": "STK-1136",
+            "rating": 4.6
           },
           {
             "id": 1137,
@@ -1448,7 +1584,8 @@
             "image": "household_tools_cleaning_tools_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.7
           },
           {
             "id": 1138,
@@ -1458,7 +1595,8 @@
             "image": "household_tools_cleaning_tools_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.7
           },
           {
             "id": 1139,
@@ -1468,7 +1606,8 @@
             "image": "household_tools_cleaning_tools_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1139"
+            "stockCode": "STK-1139",
+            "rating": 4.2
           },
           {
             "id": 1140,
@@ -1478,7 +1617,8 @@
             "image": "household_tools_cleaning_tools_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1140"
+            "stockCode": "STK-1140",
+            "rating": 3.4
           },
           {
             "id": 1141,
@@ -1488,7 +1628,8 @@
             "image": "household_tools_cleaning_tools_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1141"
+            "stockCode": "STK-1141",
+            "rating": 3.2
           },
           {
             "id": 1142,
@@ -1498,7 +1639,8 @@
             "image": "household_tools_cleaning_tools_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1143,
@@ -1508,7 +1650,8 @@
             "image": "household_tools_cleaning_tools_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1143"
+            "stockCode": "STK-1143",
+            "rating": 3.6
           },
           {
             "id": 1144,
@@ -1518,7 +1661,8 @@
             "image": "household_tools_cleaning_tools_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1144"
+            "stockCode": "STK-1144",
+            "rating": 3.6
           },
           {
             "id": 1145,
@@ -1528,7 +1672,8 @@
             "image": "household_tools_cleaning_tools_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1145"
+            "stockCode": "STK-1145",
+            "rating": 4.5
           },
           {
             "id": 1146,
@@ -1538,7 +1683,8 @@
             "image": "household_tools_cleaning_tools_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1146"
+            "stockCode": "STK-1146",
+            "rating": 4.7
           },
           {
             "id": 1147,
@@ -1548,7 +1694,8 @@
             "image": "household_tools_cleaning_tools_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1148,
@@ -1558,7 +1705,8 @@
             "image": "household_tools_cleaning_tools_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1148"
+            "stockCode": "STK-1148",
+            "rating": 4.6
           },
           {
             "id": 1149,
@@ -1568,7 +1716,8 @@
             "image": "household_tools_cleaning_tools_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1149"
+            "stockCode": "STK-1149",
+            "rating": 3.3
           },
           {
             "id": 1150,
@@ -1578,7 +1727,8 @@
             "image": "household_tools_cleaning_tools_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1150"
+            "stockCode": "STK-1150",
+            "rating": 4.1
           }
         ]
       },
@@ -1593,7 +1743,8 @@
             "image": "household_tools_pest_control_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.9
           },
           {
             "id": 1152,
@@ -1603,7 +1754,8 @@
             "image": "household_tools_pest_control_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1152"
+            "stockCode": "STK-1152",
+            "rating": 3.5
           },
           {
             "id": 1153,
@@ -1613,7 +1765,8 @@
             "image": "household_tools_pest_control_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.8
           },
           {
             "id": 1154,
@@ -1623,7 +1776,8 @@
             "image": "household_tools_pest_control_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1154"
+            "stockCode": "STK-1154",
+            "rating": 4.9
           },
           {
             "id": 1155,
@@ -1633,7 +1787,8 @@
             "image": "household_tools_pest_control_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1155"
+            "stockCode": "STK-1155",
+            "rating": 3.7
           },
           {
             "id": 1156,
@@ -1643,7 +1798,8 @@
             "image": "household_tools_pest_control_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.6
           },
           {
             "id": 1157,
@@ -1653,7 +1809,8 @@
             "image": "household_tools_pest_control_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1157"
+            "stockCode": "STK-1157",
+            "rating": 4.7
           },
           {
             "id": 1158,
@@ -1663,7 +1820,8 @@
             "image": "household_tools_pest_control_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1159,
@@ -1673,7 +1831,8 @@
             "image": "household_tools_pest_control_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1160,
@@ -1683,7 +1842,8 @@
             "image": "household_tools_pest_control_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 5.0
           },
           {
             "id": 1161,
@@ -1693,7 +1853,8 @@
             "image": "household_tools_pest_control_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1161"
+            "stockCode": "STK-1161",
+            "rating": 3.7
           },
           {
             "id": 1162,
@@ -1703,7 +1864,8 @@
             "image": "household_tools_pest_control_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1162"
+            "stockCode": "STK-1162",
+            "rating": 3.3
           },
           {
             "id": 1163,
@@ -1713,7 +1875,8 @@
             "image": "household_tools_pest_control_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.1
           },
           {
             "id": 1164,
@@ -1723,7 +1886,8 @@
             "image": "household_tools_pest_control_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1164"
+            "stockCode": "STK-1164",
+            "rating": 4.0
           },
           {
             "id": 1165,
@@ -1733,7 +1897,8 @@
             "image": "household_tools_pest_control_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           }
         ]
       }
@@ -1755,7 +1920,8 @@
             "image": "pet_care_dog_care_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1166"
+            "stockCode": "STK-1166",
+            "rating": 4.2
           },
           {
             "id": 1167,
@@ -1765,7 +1931,8 @@
             "image": "pet_care_dog_care_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           },
           {
             "id": 1168,
@@ -1775,7 +1942,8 @@
             "image": "pet_care_dog_care_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1169,
@@ -1785,7 +1953,8 @@
             "image": "pet_care_dog_care_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           },
           {
             "id": 1170,
@@ -1795,7 +1964,8 @@
             "image": "pet_care_dog_care_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1170"
+            "stockCode": "STK-1170",
+            "rating": 3.6
           },
           {
             "id": 1171,
@@ -1805,7 +1975,8 @@
             "image": "pet_care_dog_care_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1172,
@@ -1815,7 +1986,8 @@
             "image": "pet_care_dog_care_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1172"
+            "stockCode": "STK-1172",
+            "rating": 3.2
           },
           {
             "id": 1173,
@@ -1825,7 +1997,8 @@
             "image": "pet_care_dog_care_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1173"
+            "stockCode": "STK-1173",
+            "rating": 4.3
           },
           {
             "id": 1174,
@@ -1835,7 +2008,8 @@
             "image": "pet_care_dog_care_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1174"
+            "stockCode": "STK-1174",
+            "rating": 4.1
           },
           {
             "id": 1175,
@@ -1845,7 +2019,8 @@
             "image": "pet_care_dog_care_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1175"
+            "stockCode": "STK-1175",
+            "rating": 4.5
           },
           {
             "id": 1176,
@@ -1855,7 +2030,8 @@
             "image": "pet_care_dog_care_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1176"
+            "stockCode": "STK-1176",
+            "rating": 3.7
           },
           {
             "id": 1177,
@@ -1865,7 +2041,8 @@
             "image": "pet_care_dog_care_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1177"
+            "stockCode": "STK-1177",
+            "rating": 4.6
           },
           {
             "id": 1178,
@@ -1875,7 +2052,8 @@
             "image": "pet_care_dog_care_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1178"
+            "stockCode": "STK-1178",
+            "rating": 3.8
           },
           {
             "id": 1179,
@@ -1885,7 +2063,8 @@
             "image": "pet_care_dog_care_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1180,
@@ -1895,7 +2074,8 @@
             "image": "pet_care_dog_care_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1180"
+            "stockCode": "STK-1180",
+            "rating": 3.7
           }
         ]
       },
@@ -1910,7 +2090,8 @@
             "image": "pet_care_cat_care_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1181"
+            "stockCode": "STK-1181",
+            "rating": 4.7
           },
           {
             "id": 1182,
@@ -1920,7 +2101,8 @@
             "image": "pet_care_cat_care_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           },
           {
             "id": 1183,
@@ -1930,7 +2112,8 @@
             "image": "pet_care_cat_care_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1183"
+            "stockCode": "STK-1183",
+            "rating": 3.1
           },
           {
             "id": 1184,
@@ -1940,7 +2123,8 @@
             "image": "pet_care_cat_care_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           },
           {
             "id": 1185,
@@ -1950,7 +2134,8 @@
             "image": "pet_care_cat_care_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1185"
+            "stockCode": "STK-1185",
+            "rating": 3.9
           },
           {
             "id": 1186,
@@ -1960,7 +2145,8 @@
             "image": "pet_care_cat_care_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           },
           {
             "id": 1187,
@@ -1970,7 +2156,8 @@
             "image": "pet_care_cat_care_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1187"
+            "stockCode": "STK-1187",
+            "rating": 3.2
           },
           {
             "id": 1188,
@@ -1980,7 +2167,8 @@
             "image": "pet_care_cat_care_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1188"
+            "stockCode": "STK-1188",
+            "rating": 3.7
           },
           {
             "id": 1189,
@@ -1990,7 +2178,8 @@
             "image": "pet_care_cat_care_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.0
           },
           {
             "id": 1190,
@@ -2000,7 +2189,8 @@
             "image": "pet_care_cat_care_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1190"
+            "stockCode": "STK-1190",
+            "rating": 3.0
           },
           {
             "id": 1191,
@@ -2010,7 +2200,8 @@
             "image": "pet_care_cat_care_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           },
           {
             "id": 1192,
@@ -2020,7 +2211,8 @@
             "image": "pet_care_cat_care_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1192"
+            "stockCode": "STK-1192",
+            "rating": 4.0
           },
           {
             "id": 1193,
@@ -2030,7 +2222,8 @@
             "image": "pet_care_cat_care_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1194,
@@ -2040,7 +2233,8 @@
             "image": "pet_care_cat_care_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1194"
+            "stockCode": "STK-1194",
+            "rating": 4.7
           },
           {
             "id": 1195,
@@ -2050,7 +2244,8 @@
             "image": "pet_care_cat_care_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.9
           }
         ]
       }
@@ -2072,7 +2267,8 @@
             "image": "beauty_health's_woman_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1196"
+            "stockCode": "STK-1196",
+            "rating": 3.2
           },
           {
             "id": 1197,
@@ -2082,7 +2278,8 @@
             "image": "beauty_health's_woman_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1198,
@@ -2092,7 +2289,8 @@
             "image": "beauty_health's_woman_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1198"
+            "stockCode": "STK-1198",
+            "rating": 4.5
           },
           {
             "id": 1199,
@@ -2102,7 +2300,8 @@
             "image": "beauty_health's_woman_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1199"
+            "stockCode": "STK-1199",
+            "rating": 3.4
           },
           {
             "id": 1200,
@@ -2112,7 +2311,8 @@
             "image": "beauty_health's_woman_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1200"
+            "stockCode": "STK-1200",
+            "rating": 4.1
           },
           {
             "id": 1201,
@@ -2122,7 +2322,8 @@
             "image": "beauty_health's_woman_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1201"
+            "stockCode": "STK-1201",
+            "rating": 4.1
           },
           {
             "id": 1202,
@@ -2132,7 +2333,8 @@
             "image": "beauty_health's_woman_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1202"
+            "stockCode": "STK-1202",
+            "rating": 4.8
           },
           {
             "id": 1203,
@@ -2142,7 +2344,8 @@
             "image": "beauty_health's_woman_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.8
           },
           {
             "id": 1204,
@@ -2152,7 +2355,8 @@
             "image": "beauty_health's_woman_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1204"
+            "stockCode": "STK-1204",
+            "rating": 3.5
           },
           {
             "id": 1205,
@@ -2162,7 +2366,8 @@
             "image": "beauty_health's_woman_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1205"
+            "stockCode": "STK-1205",
+            "rating": 4.2
           },
           {
             "id": 1206,
@@ -2172,7 +2377,8 @@
             "image": "beauty_health's_woman_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1206"
+            "stockCode": "STK-1206",
+            "rating": 4.4
           },
           {
             "id": 1207,
@@ -2182,7 +2388,8 @@
             "image": "beauty_health's_woman_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1207"
+            "stockCode": "STK-1207",
+            "rating": 4.1
           },
           {
             "id": 1208,
@@ -2192,7 +2399,8 @@
             "image": "beauty_health's_woman_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.9
           },
           {
             "id": 1209,
@@ -2202,7 +2410,8 @@
             "image": "beauty_health's_woman_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.1
           },
           {
             "id": 1210,
@@ -2212,7 +2421,8 @@
             "image": "beauty_health's_woman_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1210"
+            "stockCode": "STK-1210",
+            "rating": 4.3
           }
         ]
       },
@@ -2227,7 +2437,8 @@
             "image": "beauty_health's_men_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1211"
+            "stockCode": "STK-1211",
+            "rating": 3.8
           },
           {
             "id": 1212,
@@ -2237,7 +2448,8 @@
             "image": "beauty_health's_men_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1212"
+            "stockCode": "STK-1212",
+            "rating": 3.6
           },
           {
             "id": 1213,
@@ -2247,7 +2459,8 @@
             "image": "beauty_health's_men_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 5.0
           },
           {
             "id": 1214,
@@ -2257,7 +2470,8 @@
             "image": "beauty_health's_men_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1214"
+            "stockCode": "STK-1214",
+            "rating": 3.5
           },
           {
             "id": 1215,
@@ -2267,7 +2481,8 @@
             "image": "beauty_health's_men_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1215"
+            "stockCode": "STK-1215",
+            "rating": 4.1
           },
           {
             "id": 1216,
@@ -2277,7 +2492,8 @@
             "image": "beauty_health's_men_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1216"
+            "stockCode": "STK-1216",
+            "rating": 3.3
           },
           {
             "id": 1217,
@@ -2287,7 +2503,8 @@
             "image": "beauty_health's_men_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1217"
+            "stockCode": "STK-1217",
+            "rating": 4.8
           },
           {
             "id": 1218,
@@ -2297,7 +2514,8 @@
             "image": "beauty_health's_men_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1218"
+            "stockCode": "STK-1218",
+            "rating": 3.9
           },
           {
             "id": 1219,
@@ -2307,7 +2525,8 @@
             "image": "beauty_health's_men_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1219"
+            "stockCode": "STK-1219",
+            "rating": 4.8
           },
           {
             "id": 1220,
@@ -2317,7 +2536,8 @@
             "image": "beauty_health's_men_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1220"
+            "stockCode": "STK-1220",
+            "rating": 4.8
           },
           {
             "id": 1221,
@@ -2327,7 +2547,8 @@
             "image": "beauty_health's_men_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1221"
+            "stockCode": "STK-1221",
+            "rating": 4.3
           },
           {
             "id": 1222,
@@ -2337,7 +2558,8 @@
             "image": "beauty_health's_men_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1223,
@@ -2347,7 +2569,8 @@
             "image": "beauty_health's_men_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1223"
+            "stockCode": "STK-1223",
+            "rating": 3.7
           },
           {
             "id": 1224,
@@ -2357,7 +2580,8 @@
             "image": "beauty_health's_men_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.8
           },
           {
             "id": 1225,
@@ -2367,7 +2591,8 @@
             "image": "beauty_health's_men_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1225"
+            "stockCode": "STK-1225",
+            "rating": 3.0
           }
         ]
       }
@@ -2389,7 +2614,8 @@
             "image": "jam_jelly_jam_jelly_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1226"
+            "stockCode": "STK-1226",
+            "rating": 4.2
           },
           {
             "id": 1227,
@@ -2399,7 +2625,8 @@
             "image": "jam_jelly_jam_jelly_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1227"
+            "stockCode": "STK-1227",
+            "rating": 3.6
           },
           {
             "id": 1228,
@@ -2409,7 +2636,8 @@
             "image": "jam_jelly_jam_jelly_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1228"
+            "stockCode": "STK-1228",
+            "rating": 3.9
           },
           {
             "id": 1229,
@@ -2419,7 +2647,8 @@
             "image": "jam_jelly_jam_jelly_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1229"
+            "stockCode": "STK-1229",
+            "rating": 4.6
           },
           {
             "id": 1230,
@@ -2429,7 +2658,8 @@
             "image": "jam_jelly_jam_jelly_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.9
           },
           {
             "id": 1231,
@@ -2439,7 +2669,8 @@
             "image": "jam_jelly_jam_jelly_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           },
           {
             "id": 1232,
@@ -2449,7 +2680,8 @@
             "image": "jam_jelly_jam_jelly_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.3
           },
           {
             "id": 1233,
@@ -2459,7 +2691,8 @@
             "image": "jam_jelly_jam_jelly_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1234,
@@ -2469,7 +2702,8 @@
             "image": "jam_jelly_jam_jelly_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 5.0
           },
           {
             "id": 1235,
@@ -2479,7 +2713,8 @@
             "image": "jam_jelly_jam_jelly_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           },
           {
             "id": 1236,
@@ -2489,7 +2724,8 @@
             "image": "jam_jelly_jam_jelly_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.8
           },
           {
             "id": 1237,
@@ -2499,7 +2735,8 @@
             "image": "jam_jelly_jam_jelly_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1237"
+            "stockCode": "STK-1237",
+            "rating": 3.7
           },
           {
             "id": 1238,
@@ -2509,7 +2746,8 @@
             "image": "jam_jelly_jam_jelly_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1238"
+            "stockCode": "STK-1238",
+            "rating": 4.0
           },
           {
             "id": 1239,
@@ -2519,7 +2757,8 @@
             "image": "jam_jelly_jam_jelly_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1239"
+            "stockCode": "STK-1239",
+            "rating": 3.1
           },
           {
             "id": 1240,
@@ -2529,7 +2768,8 @@
             "image": "jam_jelly_jam_jelly_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1240"
+            "stockCode": "STK-1240",
+            "rating": 4.2
           }
         ]
       }
@@ -2551,7 +2791,8 @@
             "image": "milks_dairy_butter_ghee_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1241"
+            "stockCode": "STK-1241",
+            "rating": 4.0
           },
           {
             "id": 1242,
@@ -2561,7 +2802,8 @@
             "image": "milks_dairy_butter_ghee_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1242"
+            "stockCode": "STK-1242",
+            "rating": 3.9
           },
           {
             "id": 1243,
@@ -2571,7 +2813,8 @@
             "image": "milks_dairy_butter_ghee_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1243"
+            "stockCode": "STK-1243",
+            "rating": 3.6
           },
           {
             "id": 1244,
@@ -2581,7 +2824,8 @@
             "image": "milks_dairy_butter_ghee_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1244"
+            "stockCode": "STK-1244",
+            "rating": 3.4
           },
           {
             "id": 1245,
@@ -2591,7 +2835,8 @@
             "image": "milks_dairy_butter_ghee_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1245"
+            "stockCode": "STK-1245",
+            "rating": 4.1
           },
           {
             "id": 1246,
@@ -2601,7 +2846,8 @@
             "image": "milks_dairy_butter_ghee_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1246"
+            "stockCode": "STK-1246",
+            "rating": 3.7
           },
           {
             "id": 1247,
@@ -2611,7 +2857,8 @@
             "image": "milks_dairy_butter_ghee_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1247"
+            "stockCode": "STK-1247",
+            "rating": 3.1
           },
           {
             "id": 1248,
@@ -2621,7 +2868,8 @@
             "image": "milks_dairy_butter_ghee_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1248"
+            "stockCode": "STK-1248",
+            "rating": 3.6
           },
           {
             "id": 1249,
@@ -2631,7 +2879,8 @@
             "image": "milks_dairy_butter_ghee_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1249"
+            "stockCode": "STK-1249",
+            "rating": 3.1
           },
           {
             "id": 1250,
@@ -2641,7 +2890,8 @@
             "image": "milks_dairy_butter_ghee_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1250"
+            "stockCode": "STK-1250",
+            "rating": 4.1
           },
           {
             "id": 1251,
@@ -2651,7 +2901,8 @@
             "image": "milks_dairy_butter_ghee_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1251"
+            "stockCode": "STK-1251",
+            "rating": 3.9
           },
           {
             "id": 1252,
@@ -2661,7 +2912,8 @@
             "image": "milks_dairy_butter_ghee_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1252"
+            "stockCode": "STK-1252",
+            "rating": 4.3
           },
           {
             "id": 1253,
@@ -2671,7 +2923,8 @@
             "image": "milks_dairy_butter_ghee_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1253"
+            "stockCode": "STK-1253",
+            "rating": 4.4
           },
           {
             "id": 1254,
@@ -2681,7 +2934,8 @@
             "image": "milks_dairy_butter_ghee_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1255,
@@ -2691,7 +2945,8 @@
             "image": "milks_dairy_butter_ghee_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.2
           }
         ]
       },
@@ -2706,7 +2961,8 @@
             "image": "milks_dairy_ice_cream_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.9
           },
           {
             "id": 1257,
@@ -2716,7 +2972,8 @@
             "image": "milks_dairy_ice_cream_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1258,
@@ -2726,7 +2983,8 @@
             "image": "milks_dairy_ice_cream_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 5.0
           },
           {
             "id": 1259,
@@ -2736,7 +2994,8 @@
             "image": "milks_dairy_ice_cream_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.9
           },
           {
             "id": 1260,
@@ -2746,7 +3005,8 @@
             "image": "milks_dairy_ice_cream_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1260"
+            "stockCode": "STK-1260",
+            "rating": 3.4
           },
           {
             "id": 1261,
@@ -2756,7 +3016,8 @@
             "image": "milks_dairy_ice_cream_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1262,
@@ -2766,7 +3027,8 @@
             "image": "milks_dairy_ice_cream_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1262"
+            "stockCode": "STK-1262",
+            "rating": 4.7
           },
           {
             "id": 1263,
@@ -2776,7 +3038,8 @@
             "image": "milks_dairy_ice_cream_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1263"
+            "stockCode": "STK-1263",
+            "rating": 4.3
           },
           {
             "id": 1264,
@@ -2786,7 +3049,8 @@
             "image": "milks_dairy_ice_cream_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1264"
+            "stockCode": "STK-1264",
+            "rating": 3.6
           },
           {
             "id": 1265,
@@ -2796,7 +3060,8 @@
             "image": "milks_dairy_ice_cream_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1265"
+            "stockCode": "STK-1265",
+            "rating": 3.3
           },
           {
             "id": 1266,
@@ -2806,7 +3071,8 @@
             "image": "milks_dairy_ice_cream_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1267,
@@ -2816,7 +3082,8 @@
             "image": "milks_dairy_ice_cream_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1267"
+            "stockCode": "STK-1267",
+            "rating": 3.1
           },
           {
             "id": 1268,
@@ -2826,7 +3093,8 @@
             "image": "milks_dairy_ice_cream_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1268"
+            "stockCode": "STK-1268",
+            "rating": 3.2
           },
           {
             "id": 1269,
@@ -2836,7 +3104,8 @@
             "image": "milks_dairy_ice_cream_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1269"
+            "stockCode": "STK-1269",
+            "rating": 3.3
           },
           {
             "id": 1270,
@@ -2846,7 +3115,8 @@
             "image": "milks_dairy_ice_cream_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           }
         ]
       },
@@ -2861,7 +3131,8 @@
             "image": "milks_dairy_dairy_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.7
           },
           {
             "id": 1272,
@@ -2871,7 +3142,8 @@
             "image": "milks_dairy_dairy_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.1
           },
           {
             "id": 1273,
@@ -2881,7 +3153,8 @@
             "image": "milks_dairy_dairy_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1274,
@@ -2891,7 +3164,8 @@
             "image": "milks_dairy_dairy_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1274"
+            "stockCode": "STK-1274",
+            "rating": 3.9
           },
           {
             "id": 1275,
@@ -2901,7 +3175,8 @@
             "image": "milks_dairy_dairy_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1275"
+            "stockCode": "STK-1275",
+            "rating": 3.7
           },
           {
             "id": 1276,
@@ -2911,7 +3186,8 @@
             "image": "milks_dairy_dairy_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.1
           },
           {
             "id": 1277,
@@ -2921,7 +3197,8 @@
             "image": "milks_dairy_dairy_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1277"
+            "stockCode": "STK-1277",
+            "rating": 3.2
           },
           {
             "id": 1278,
@@ -2931,7 +3208,8 @@
             "image": "milks_dairy_dairy_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1279,
@@ -2941,7 +3219,8 @@
             "image": "milks_dairy_dairy_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1279"
+            "stockCode": "STK-1279",
+            "rating": 4.5
           },
           {
             "id": 1280,
@@ -2951,7 +3230,8 @@
             "image": "milks_dairy_dairy_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.1
           },
           {
             "id": 1281,
@@ -2961,7 +3241,8 @@
             "image": "milks_dairy_dairy_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1281"
+            "stockCode": "STK-1281",
+            "rating": 4.6
           },
           {
             "id": 1282,
@@ -2971,7 +3252,8 @@
             "image": "milks_dairy_dairy_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           },
           {
             "id": 1283,
@@ -2981,7 +3263,8 @@
             "image": "milks_dairy_dairy_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.3
           },
           {
             "id": 1284,
@@ -2991,7 +3274,8 @@
             "image": "milks_dairy_dairy_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1284"
+            "stockCode": "STK-1284",
+            "rating": 3.5
           },
           {
             "id": 1285,
@@ -3001,7 +3285,8 @@
             "image": "milks_dairy_dairy_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1285"
+            "stockCode": "STK-1285",
+            "rating": 4.1
           }
         ]
       }
@@ -3023,7 +3308,8 @@
             "image": "drinks_tea_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1286"
+            "stockCode": "STK-1286",
+            "rating": 3.2
           },
           {
             "id": 1287,
@@ -3033,7 +3319,8 @@
             "image": "drinks_tea_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1288,
@@ -3043,7 +3330,8 @@
             "image": "drinks_tea_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1288"
+            "stockCode": "STK-1288",
+            "rating": 3.2
           },
           {
             "id": 1289,
@@ -3053,7 +3341,8 @@
             "image": "drinks_tea_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1289"
+            "stockCode": "STK-1289",
+            "rating": 3.7
           },
           {
             "id": 1290,
@@ -3063,7 +3352,8 @@
             "image": "drinks_tea_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.6
           },
           {
             "id": 1291,
@@ -3073,7 +3363,8 @@
             "image": "drinks_tea_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.9
           },
           {
             "id": 1292,
@@ -3083,7 +3374,8 @@
             "image": "drinks_tea_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1293,
@@ -3093,7 +3385,8 @@
             "image": "drinks_tea_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1293"
+            "stockCode": "STK-1293",
+            "rating": 3.5
           },
           {
             "id": 1294,
@@ -3103,7 +3396,8 @@
             "image": "drinks_tea_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           },
           {
             "id": 1295,
@@ -3113,7 +3407,8 @@
             "image": "drinks_tea_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.2
           },
           {
             "id": 1296,
@@ -3123,7 +3418,8 @@
             "image": "drinks_tea_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1296"
+            "stockCode": "STK-1296",
+            "rating": 3.6
           },
           {
             "id": 1297,
@@ -3133,7 +3429,8 @@
             "image": "drinks_tea_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1297"
+            "stockCode": "STK-1297",
+            "rating": 3.2
           },
           {
             "id": 1298,
@@ -3143,7 +3440,8 @@
             "image": "drinks_tea_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1298"
+            "stockCode": "STK-1298",
+            "rating": 3.0
           },
           {
             "id": 1299,
@@ -3153,7 +3451,8 @@
             "image": "drinks_tea_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1299"
+            "stockCode": "STK-1299",
+            "rating": 4.7
           },
           {
             "id": 1300,
@@ -3163,7 +3462,8 @@
             "image": "drinks_tea_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1300"
+            "stockCode": "STK-1300",
+            "rating": 4.5
           }
         ]
       },
@@ -3178,7 +3478,8 @@
             "image": "drinks_water_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1301"
+            "stockCode": "STK-1301",
+            "rating": 3.2
           },
           {
             "id": 1302,
@@ -3188,7 +3489,8 @@
             "image": "drinks_water_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1302"
+            "stockCode": "STK-1302",
+            "rating": 3.7
           },
           {
             "id": 1303,
@@ -3198,7 +3500,8 @@
             "image": "drinks_water_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           },
           {
             "id": 1304,
@@ -3208,7 +3511,8 @@
             "image": "drinks_water_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1304"
+            "stockCode": "STK-1304",
+            "rating": 3.5
           },
           {
             "id": 1305,
@@ -3218,7 +3522,8 @@
             "image": "drinks_water_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1305"
+            "stockCode": "STK-1305",
+            "rating": 4.0
           },
           {
             "id": 1306,
@@ -3228,7 +3533,8 @@
             "image": "drinks_water_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1306"
+            "stockCode": "STK-1306",
+            "rating": 4.5
           },
           {
             "id": 1307,
@@ -3238,7 +3544,8 @@
             "image": "drinks_water_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1307"
+            "stockCode": "STK-1307",
+            "rating": 5.0
           },
           {
             "id": 1308,
@@ -3248,7 +3555,8 @@
             "image": "drinks_water_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1308"
+            "stockCode": "STK-1308",
+            "rating": 4.5
           },
           {
             "id": 1309,
@@ -3258,7 +3566,8 @@
             "image": "drinks_water_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1309"
+            "stockCode": "STK-1309",
+            "rating": 4.9
           },
           {
             "id": 1310,
@@ -3268,7 +3577,8 @@
             "image": "drinks_water_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1310"
+            "stockCode": "STK-1310",
+            "rating": 4.2
           },
           {
             "id": 1311,
@@ -3278,7 +3588,8 @@
             "image": "drinks_water_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.6
           },
           {
             "id": 1312,
@@ -3288,7 +3599,8 @@
             "image": "drinks_water_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1313,
@@ -3298,7 +3610,8 @@
             "image": "drinks_water_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.1
           },
           {
             "id": 1314,
@@ -3308,7 +3621,8 @@
             "image": "drinks_water_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1314"
+            "stockCode": "STK-1314",
+            "rating": 3.3
           },
           {
             "id": 1315,
@@ -3318,7 +3632,8 @@
             "image": "drinks_water_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1315"
+            "stockCode": "STK-1315",
+            "rating": 4.5
           }
         ]
       },
@@ -3333,7 +3648,8 @@
             "image": "drinks_juice_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           },
           {
             "id": 1317,
@@ -3343,7 +3659,8 @@
             "image": "drinks_juice_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1317"
+            "stockCode": "STK-1317",
+            "rating": 3.7
           },
           {
             "id": 1318,
@@ -3353,7 +3670,8 @@
             "image": "drinks_juice_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1318"
+            "stockCode": "STK-1318",
+            "rating": 3.8
           },
           {
             "id": 1319,
@@ -3363,7 +3681,8 @@
             "image": "drinks_juice_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1319"
+            "stockCode": "STK-1319",
+            "rating": 4.1
           },
           {
             "id": 1320,
@@ -3373,7 +3692,8 @@
             "image": "drinks_juice_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1320"
+            "stockCode": "STK-1320",
+            "rating": 3.0
           },
           {
             "id": 1321,
@@ -3383,7 +3703,8 @@
             "image": "drinks_juice_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.7
           },
           {
             "id": 1322,
@@ -3393,7 +3714,8 @@
             "image": "drinks_juice_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1322"
+            "stockCode": "STK-1322",
+            "rating": 4.0
           },
           {
             "id": 1323,
@@ -3403,7 +3725,8 @@
             "image": "drinks_juice_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.7
           },
           {
             "id": 1324,
@@ -3413,7 +3736,8 @@
             "image": "drinks_juice_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1324"
+            "stockCode": "STK-1324",
+            "rating": 4.8
           },
           {
             "id": 1325,
@@ -3423,7 +3747,8 @@
             "image": "drinks_juice_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1325"
+            "stockCode": "STK-1325",
+            "rating": 3.1
           },
           {
             "id": 1326,
@@ -3433,7 +3758,8 @@
             "image": "drinks_juice_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.7
           },
           {
             "id": 1327,
@@ -3443,7 +3769,8 @@
             "image": "drinks_juice_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1327"
+            "stockCode": "STK-1327",
+            "rating": 3.7
           },
           {
             "id": 1328,
@@ -3453,7 +3780,8 @@
             "image": "drinks_juice_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.7
           },
           {
             "id": 1329,
@@ -3463,7 +3791,8 @@
             "image": "drinks_juice_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1329"
+            "stockCode": "STK-1329",
+            "rating": 4.6
           },
           {
             "id": 1330,
@@ -3473,7 +3802,8 @@
             "image": "drinks_juice_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1330"
+            "stockCode": "STK-1330",
+            "rating": 3.4
           }
         ]
       }
@@ -3495,7 +3825,8 @@
             "image": "breakfast_bread_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1332,
@@ -3505,7 +3836,8 @@
             "image": "breakfast_bread_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1332"
+            "stockCode": "STK-1332",
+            "rating": 4.2
           },
           {
             "id": 1333,
@@ -3515,7 +3847,8 @@
             "image": "breakfast_bread_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1333"
+            "stockCode": "STK-1333",
+            "rating": 4.8
           },
           {
             "id": 1334,
@@ -3525,7 +3858,8 @@
             "image": "breakfast_bread_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.1
           },
           {
             "id": 1335,
@@ -3535,7 +3869,8 @@
             "image": "breakfast_bread_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.3
           },
           {
             "id": 1336,
@@ -3545,7 +3880,8 @@
             "image": "breakfast_bread_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.6
           },
           {
             "id": 1337,
@@ -3555,7 +3891,8 @@
             "image": "breakfast_bread_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1337"
+            "stockCode": "STK-1337",
+            "rating": 3.1
           },
           {
             "id": 1338,
@@ -3565,7 +3902,8 @@
             "image": "breakfast_bread_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.1
           },
           {
             "id": 1339,
@@ -3575,7 +3913,8 @@
             "image": "breakfast_bread_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1340,
@@ -3585,7 +3924,8 @@
             "image": "breakfast_bread_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1340"
+            "stockCode": "STK-1340",
+            "rating": 4.7
           },
           {
             "id": 1341,
@@ -3595,7 +3935,8 @@
             "image": "breakfast_bread_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.1
           },
           {
             "id": 1342,
@@ -3605,7 +3946,8 @@
             "image": "breakfast_bread_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1342"
+            "stockCode": "STK-1342",
+            "rating": 3.4
           },
           {
             "id": 1343,
@@ -3615,7 +3957,8 @@
             "image": "breakfast_bread_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.5
           },
           {
             "id": 1344,
@@ -3625,7 +3968,8 @@
             "image": "breakfast_bread_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1344"
+            "stockCode": "STK-1344",
+            "rating": 4.8
           },
           {
             "id": 1345,
@@ -3635,7 +3979,8 @@
             "image": "breakfast_bread_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1345"
+            "stockCode": "STK-1345",
+            "rating": 3.8
           }
         ]
       },
@@ -3650,7 +3995,8 @@
             "image": "breakfast_cereal_1.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1346"
+            "stockCode": "STK-1346",
+            "rating": 5.0
           },
           {
             "id": 1347,
@@ -3660,7 +4006,8 @@
             "image": "breakfast_cereal_2.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1347"
+            "stockCode": "STK-1347",
+            "rating": 3.9
           },
           {
             "id": 1348,
@@ -3670,7 +4017,8 @@
             "image": "breakfast_cereal_3.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.9
           },
           {
             "id": 1349,
@@ -3680,7 +4028,8 @@
             "image": "breakfast_cereal_4.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.4
           },
           {
             "id": 1350,
@@ -3690,7 +4039,8 @@
             "image": "breakfast_cereal_5.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.8
           },
           {
             "id": 1351,
@@ -3700,7 +4050,8 @@
             "image": "breakfast_cereal_6.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1351"
+            "stockCode": "STK-1351",
+            "rating": 3.6
           },
           {
             "id": 1352,
@@ -3710,7 +4061,8 @@
             "image": "breakfast_cereal_7.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1352"
+            "stockCode": "STK-1352",
+            "rating": 3.1
           },
           {
             "id": 1353,
@@ -3720,7 +4072,8 @@
             "image": "breakfast_cereal_8.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.5
           },
           {
             "id": 1354,
@@ -3730,7 +4083,8 @@
             "image": "breakfast_cereal_9.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.6
           },
           {
             "id": 1355,
@@ -3740,7 +4094,8 @@
             "image": "breakfast_cereal_10.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 3.4
           },
           {
             "id": 1356,
@@ -3750,7 +4105,8 @@
             "image": "breakfast_cereal_11.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
-            "stockCode": null
+            "stockCode": null,
+            "rating": 4.9
           },
           {
             "id": 1357,
@@ -3760,7 +4116,8 @@
             "image": "breakfast_cereal_12.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1357"
+            "stockCode": "STK-1357",
+            "rating": 3.9
           },
           {
             "id": 1358,
@@ -3770,7 +4127,8 @@
             "image": "breakfast_cereal_13.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1358"
+            "stockCode": "STK-1358",
+            "rating": 5.0
           },
           {
             "id": 1359,
@@ -3780,7 +4138,8 @@
             "image": "breakfast_cereal_14.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1359"
+            "stockCode": "STK-1359",
+            "rating": 4.5
           },
           {
             "id": 1360,
@@ -3790,7 +4149,8 @@
             "image": "breakfast_cereal_15.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
-            "stockCode": "STK-1360"
+            "stockCode": "STK-1360",
+            "rating": 3.7
           }
         ]
       }
