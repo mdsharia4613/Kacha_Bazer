@@ -50,7 +50,7 @@ const Items = ({ selectedSub, onBack, }) => {
                             </p>
 
                             <div className="flex justify-between items-center">
-                                <button className="" onClick={() => handleAddToCart(item)} className="mt-4 bg-[#00bc7d] text-white  py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200">
+                                <button  onClick={() => handleAddToCart(item)} className="mt-4 bg-[#00bc7d] text-white  py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200">
                                     <FaShoppingBag fontSize="20" />
                                 </button>
                                 <div className="flex items-center gap-2">
