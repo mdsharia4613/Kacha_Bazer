@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import productData from "../../../public/category_data.json";
 import { useOutletContext, useParams } from "react-router-dom";
-import Items from "../Categorys/Items";
 
 const CategoryProducts = () => {
     const {categoryName} = useParams();

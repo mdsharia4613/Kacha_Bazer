@@ -1,20 +1,19 @@
 import { MdOutlineWifiCalling3 } from "react-icons/md";
-import { FaShoppingBag } from "react-icons/fa";
+import { FaShoppingBag, FaRegBell, FaQuestionCircle } from "react-icons/fa";
 import { IoSearchOutline } from "react-icons/io5";
 import { HiMiniShoppingCart } from "react-icons/hi2";
-import { FaRegBell } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa6";
 import { BiSolidOffer } from "react-icons/bi";
 import { IoBagCheckOutline } from "react-icons/io5";
-import { FaQuestionCircle } from "react-icons/fa";
 import { MdPrivacyTip } from "react-icons/md";
 import { FaFile } from "react-icons/fa";
 import { BiSolidErrorAlt } from "react-icons/bi";
 import { FaAngleDown } from "react-icons/fa6";
 import { TiDelete } from "react-icons/ti";
 import { User } from "lucide-react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import productData  from '../../../public/category_data.json';
 
 const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handleRemove }) => {
     const navLinkStyle = ({ isActive }) => isActive ? 'text-green-500 transition-all duration-500 bg-transparent' : 'hover:text-green-400 transition-all duration-500 hover:bg-transparent'
@@ -267,6 +266,22 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
         </>
     );
 
+    const [searchTerm, setSearchTerm] = useState('');
+    const [searchResults, setSearchResults] = useState([]);
+    const navigate = useNavigate();
+    const handleSearch = (e) => {
+        const value = e.target.value.toLowerCase();
+        setSearchTerm(value);
+        if(value.trim() === '') {
+            setSearchResults([]);
+            return;
+        } 
+        const allitems = productData.flatMap(cat => cat.subcategories.flatMap(sub => sub.items));
+        const filtered = allitems.filter(item => item.name.toLowerCase().includes(value));
+        setSearchResults(filtered);
+    }
+
+
     const [showcart, setShowCart] = useState(false);
     return (
         <>
@@ -299,15 +314,42 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                         </Link>
 
                         {/* Search Bar */}
-                        <div className="w-full md:w-1/2">
+                        <div className="w-full md:w-1/2 relative">
                             <div className="flex items-center justify-between bg-white rounded-lg py-2.5 px-4 shadow-sm">
                                 <input
+                                    onChange={handleSearch} value={searchTerm}
                                     type="search"
                                     placeholder="Search for product (e.g. shirt, pant)"
                                     className="w-full bg-transparent px-2 outline-none border-none text-sm md:text-base"
                                 />
                                 <IoSearchOutline className="text-gray-400 text-lg md:text-xl" />
                             </div>
+                            {/* search dropdown */}
+                            {searchResults.length > 0 && (
+                                <div className="absolute top-full left-0 right-0 bg-white shadow-lg rounded-lg mt-1 z-50">
+                                    {searchResults.map((item) => (
+                                        <div
+                                            key={item.id}
+                                            onClick={() => {
+                                                navigate(`/product/${item.id}`);
+                                                setSearchResults([]);
+                                                setSearchTerm("");
+                                            }}
+                                            className="flex items-center gap-3 px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                                        >
+                                            <img
+                                                src={item.image}
+                                                alt={item.name}
+                                                className="w-10 h-10 object-contain rounded"
+                                            />
+                                            <div>
+                                                <h4 className="text-sm font-semibold text-gray-700">{item.name}</h4>
+                                                <p className="text-xs text-gray-500">${item.price}</p>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
                         </div>
 
                         {/* Right Side Icons */}
