@@ -7,6 +7,7 @@ import { FaShoppingBag } from "react-icons/fa";
 import { ProductContext } from '../QuickView/QuickView';
 import { IoClose } from 'react-icons/io5';
 import { HiOutlineViewfinderCircle } from 'react-icons/hi2';
+import { TbCurrencyTaka } from 'react-icons/tb';
 
 const TopRating = () => {
     const { handleAddToCart } = useOutletContext();
@@ -65,7 +66,7 @@ const TopRating = () => {
                                         setSelectedProduct(item);
                                     }}
                                     className="absolute inset-0 flex items-center justify-center gap-2 text-white font-medium text-sm bg-black/60 
-                                    opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                    opacity-0 group-hover:opacity-100 transition-opacity duration-300 "
                                 >
                                     <HiOutlineViewfinderCircle className="text-lg" />
                                     <span>Quick View</span>
@@ -73,7 +74,7 @@ const TopRating = () => {
                             </div>
 
                             <h3 className="text-lg font-semibold text-gray-700 mb-1">{item.name}</h3>
-                            <p className="text-lg font-bold text-cyan-600">৳{item.price}</p>
+                            <p className="text-lg font-bold text-cyan-600 flex items-center "><TbCurrencyTaka />{item.price}</p>
 
                             <p
                                 className={`absolute -top-1 text-xs font-medium mt-1 text-white px-0.5 py-0.5 left-0 rounded-tl-xl rounded-br-xl ${item.stockStatus === 'In Stock'
@@ -132,7 +133,7 @@ const TopRating = () => {
                     >
                         {/* Background Overlay */}
                         <motion.div
-                            className="absolute inset-0 bg-black/50 backdrop-blur-sm brightness-50"
+                            className="absolute inset-0 bg-black/50 backdrop-blur-sm brightness-50 "
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}

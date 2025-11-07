@@ -6,6 +6,7 @@ import { HiOutlineViewfinderCircle } from "react-icons/hi2";
 import { IoClose } from "react-icons/io5";
 import { ProductContext } from "../QuickView/QuickView"; // path adjust করুন
 import { useOutletContext } from "react-router-dom";
+import { TbCurrencyTaka } from "react-icons/tb";
 
 const Items = ({ selectedSub }) => {
     const { selectedProduct, setSelectedProduct } = useContext(ProductContext);
@@ -67,7 +68,7 @@ const Items = ({ selectedSub }) => {
                             </div>
 
                             <h3 className="text-lg font-semibold text-gray-700 mb-1">{item.name}</h3>
-                            <p className="text-lg font-bold text-cyan-600">৳{item.price}</p>
+                            <p className="text-lg font-bold text-cyan-600"><TbCurrencyTaka/>{item.price}</p>
 
                             {/* Stock Status */}
                             <p

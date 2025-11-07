@@ -16,7 +16,7 @@ const sliderImage = [img1, img2, img3];
 
 const Banner = () => {
     return (
-        <div className="container mx-auto flex flex-col md:flex-row gap-4 my-6 px-4 ">
+        <div className="container mx-auto flex flex-col md:flex-row gap-4 my-6  px-4">
             {/* Left side slider */}
             <div className="md:w-2/3 w-full">
                 <Swiper
