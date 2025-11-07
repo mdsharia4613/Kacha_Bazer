@@ -7,10 +7,11 @@ import { IoClose } from "react-icons/io5";
 import { ProductContext } from "../QuickView/QuickView"; // path adjust করুন
 import { useOutletContext } from "react-router-dom";
 import { TbCurrencyTaka } from "react-icons/tb";
+import img from "../../assets/delivary/line.png";
 
 const Items = ({ selectedSub, onBack }) => {
     const { selectedProduct, setSelectedProduct } = useContext(ProductContext);
-    const { handleAddToCart } =useOutletContext();
+    const { handleAddToCart } = useOutletContext();
     const [visibleCount, setVisibleCount] = useState(8);
 
     const handleShowMore = () => {
@@ -51,7 +52,7 @@ const Items = ({ selectedSub, onBack }) => {
                     return (
                         <motion.div
                             key={item.id}
-                            className="relative border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white w-72 group overflow-hidden"
+                            className="relative border border-gray-200 hover:border-[#00a86b] rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white w-72 group overflow-hidden"
                             whileHover={{ scale: 1.03 }}
                         >
                             {/* Product Image */}
@@ -77,11 +78,11 @@ const Items = ({ selectedSub, onBack }) => {
                             </div>
 
                             <h3 className="text-lg font-semibold text-gray-700 mb-1">{item.name}</h3>
-                            <p className="text-lg font-bold text-cyan-600"><TbCurrencyTaka/>{item.price}</p>
+                            <p className="text-lg font-bold text-cyan-600 flex items-center"><TbCurrencyTaka />{item.price}</p>
 
                             {/* Stock Status */}
                             <p
-                                className={`absolute -top-1 text-xs font-medium mt-1 text-white px-0.5 py-0.5 left-0 rounded-tl-xl rounded-br-xl ${item.stockStatus === "In Stock" ? "bg-green-500" : "bg-red-500"
+                                className={`absolute -top-1 text-xs font-medium mt-1 text-white px-0.5 py-0.5 left-0 rounded-tl-xl rounded-br-xl ${item.stockStatus === "In Stock" ? "bg-green-500" : "bg-yellow-400"
                                     }`}
                             >
                                 {item.stockStatus}
@@ -110,6 +111,10 @@ const Items = ({ selectedSub, onBack }) => {
                                     </div>
                                     <span>{item.rating}</span>
                                 </div>
+                                
+                            </div>
+                            <div className="flex items-center justify-center mt-4">
+                                <img className="w-full" src={img} alt="" />
                             </div>
                         </motion.div>
                     );
@@ -139,7 +144,7 @@ const Items = ({ selectedSub, onBack }) => {
                     >
                         {/* Background Overlay */}
                         <motion.div
-                            className="absolute inset-0 bg-black/50 backdrop-blur-sm brightness-50"
+                            className="absolute inset-0  backdrop-blur-sm brightness-50"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}

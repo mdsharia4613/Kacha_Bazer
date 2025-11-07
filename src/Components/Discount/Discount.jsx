@@ -23,7 +23,7 @@ const Discount = () => {
                 </p>
             </div>
 
-            <div className="container mx-auto">
+            <div className="container mx-auto my-10 ">
                 <div className="flex flex-wrap gap-5 max-w-[1350px] mx-auto">
                     {discountData.map((item) => {
                         const fullStar = Math.floor(item.rating);

@@ -1,353 +1,6 @@
 [
   {
     "id": 1,
-    "category": "Fish & Meat",
-    "categoryImage": "https://i.ibb.co.com/Q7csbgQb/10006.png",
-    "subcategories": [
-      {
-        "name": "Fish",
-        "items": [
-          {
-            "id": 1001,
-            "name": "Ilish (Hilsa) - 1kg",
-            "description": "Ilish (Hilsa) - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1244,
-            "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1001",
-            "rating": 3.6
-          },
-          {
-            "id": 1002,
-            "name": "Rohu (Rui) - 1kg",
-            "description": "Rohu (Rui) - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 190,
-            "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.3
-          },
-          {
-            "id": 1003,
-            "name": "Katla - 1kg",
-            "description": "Katla - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 479,
-            "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.7
-          },
-          {
-            "id": 1004,
-            "name": "Pangas - 1kg",
-            "description": "Pangas - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 621,
-            "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1004",
-            "rating": 4.7
-          },
-          {
-            "id": 1005,
-            "name": "Tilapia - 1kg",
-            "description": "Tilapia - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 738,
-            "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1005",
-            "rating": 3.5
-          },
-          {
-            "id": 1006,
-            "name": "Surmai (Golda) - 1kg",
-            "description": "Surmai (Golda) - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1390,
-            "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1006",
-            "rating": 4.9
-          },
-          {
-            "id": 1007,
-            "name": "Koi - 1kg",
-            "description": "Koi - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 710,
-            "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1007",
-            "rating": 4.3
-          },
-          {
-            "id": 1008,
-            "name": "Chital - 1kg",
-            "description": "Chital - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1242,
-            "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.0
-          },
-          {
-            "id": 1009,
-            "name": "Tangra - 1kg",
-            "description": "Tangra - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 79,
-            "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1009",
-            "rating": 4.1
-          },
-          {
-            "id": 1010,
-            "name": "Kumra (Carp) - 1kg",
-            "description": "Kumra (Carp) - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 628,
-            "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1010",
-            "rating": 3.4
-          },
-          {
-            "id": 1011,
-            "name": "Chingri (Tiger Prawn) - 1kg",
-            "description": "Chingri (Tiger Prawn) - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 559,
-            "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1011",
-            "rating": 3.3
-          },
-          {
-            "id": 1012,
-            "name": "Bagda Chingri - 1kg",
-            "description": "Bagda Chingri - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 994,
-            "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1012",
-            "rating": 4.8
-          },
-          {
-            "id": 1013,
-            "name": "Boal - 1kg",
-            "description": "Boal - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 513,
-            "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1013",
-            "rating": 4.7
-          },
-          {
-            "id": 1014,
-            "name": "Mora - 1kg",
-            "description": "Mora - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 294,
-            "image": "fhttps://i.ibb.co.com/QvtngV39/r-2.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1014",
-            "rating": 3.7
-          },
-          {
-            "id": 1015,
-            "name": "Bombil (Bombay Duck) - 1kg",
-            "description": "Bombil (Bombay Duck) - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 878,
-            "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1015",
-            "rating": 4.6
-          }
-        ]
-      },
-      {
-        "name": "Meat",
-        "items": [
-          {
-            "id": 1016,
-            "name": "Beef Boneless - 1kg",
-            "description": "Beef Boneless - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 755,
-            "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.1
-          },
-          {
-            "id": 1017,
-            "name": "Beef Ribs - 1kg",
-            "description": "Beef Ribs - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 276,
-            "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1017",
-            "rating": 3.9
-          },
-          {
-            "id": 1018,
-            "name": "Beef Mince - 1kg",
-            "description": "Beef Mince - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 332,
-            "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1018",
-            "rating": 4.4
-          },
-          {
-            "id": 1019,
-            "name": "Mutton Leg - 1kg",
-            "description": "Mutton Leg - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 738,
-            "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1019",
-            "rating": 3.6
-          },
-          {
-            "id": 1020,
-            "name": "Mutton Mince - 1kg",
-            "description": "Mutton Mince - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1436,
-            "image": "https://i.ibb.co.com/VcWPfhRC/beef-cut.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1020",
-            "rating": 4.0
-          },
-          {
-            "id": 1021,
-            "name": "Goat Curry Cut - 1kg",
-            "description": "Goat Curry Cut - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1207,
-            "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1021",
-            "rating": 4.5
-          },
-          {
-            "id": 1022,
-            "name": "Buffalo Meat - 1kg",
-            "description": "Buffalo Meat - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1370,
-            "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1022",
-            "rating": 3.2
-          },
-          {
-            "id": 1023,
-            "name": "Lamb Chops - 1kg",
-            "description": "Lamb Chops - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 721,
-            "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1023",
-            "rating": 3.8
-          },
-          {
-            "id": 1024,
-            "name": "Chicken Whole - 1kg",
-            "description": "Chicken Whole - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 251,
-            "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1024",
-            "rating": 4.6
-          },
-          {
-            "id": 1025,
-            "name": "Chicken Breast - 1kg",
-            "description": "Chicken Breast - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 118,
-            "image": "https://i.ibb.co.com/VcWPfhRC/beef-cut.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1025",
-            "rating": 3.6
-          },
-          {
-            "id": 1026,
-            "name": "Chicken Thigh - 1kg",
-            "description": "Chicken Thigh - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 221,
-            "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1026",
-            "rating": 3.0
-          },
-          {
-            "id": 1027,
-            "name": "Chicken Liver - 1kg",
-            "description": "Chicken Liver - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 482,
-            "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.3
-          },
-          {
-            "id": 1028,
-            "name": "Chicken Mince - 1kg",
-            "description": "Chicken Mince - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 589,
-            "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1028",
-            "rating": 3.9
-          },
-          {
-            "id": 1029,
-            "name": "Duck Meat - 1kg",
-            "description": "Duck Meat - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 440,
-            "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1029",
-            "rating": 3.4
-          },
-          {
-            "id": 1030,
-            "name": "Quail - 1kg",
-            "description": "Quail - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 926,
-            "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.8
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
     "category": "Fruits & Vegetables",
     "categoryImage": "https://i.ibb.co.com/GvR2FLqN/10007.png",
     "subcategories": [
@@ -688,6 +341,353 @@
             "stockStatus": "In Stock",
             "stockCode": "STK-1060",
             "rating": 4.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Fish & Meat",
+    "categoryImage": "https://i.ibb.co.com/Q7csbgQb/10006.png",
+    "subcategories": [
+      {
+        "name": "Fish",
+        "items": [
+          {
+            "id": 1001,
+            "name": "Ilish (Hilsa) - 1kg",
+            "description": "Ilish (Hilsa) - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 1244,
+            "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1001",
+            "rating": 3.6
+          },
+          {
+            "id": 1002,
+            "name": "Rohu (Rui) - 1kg",
+            "description": "Rohu (Rui) - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 190,
+            "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
+            "phone": "+8801700000000",
+            "stockStatus": "Out Stock",
+            "stockCode": null,
+            "rating": 3.3
+          },
+          {
+            "id": 1003,
+            "name": "Katla - 1kg",
+            "description": "Katla - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 479,
+            "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
+            "phone": "+8801700000000",
+            "stockStatus": "Out Stock",
+            "stockCode": null,
+            "rating": 3.7
+          },
+          {
+            "id": 1004,
+            "name": "Pangas - 1kg",
+            "description": "Pangas - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 621,
+            "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1004",
+            "rating": 4.3
+          },
+          {
+            "id": 1005,
+            "name": "Tilapia - 1kg",
+            "description": "Tilapia - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 738,
+            "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1005",
+            "rating": 3.5
+          },
+          {
+            "id": 1006,
+            "name": "Surmai (Golda) - 1kg",
+            "description": "Surmai (Golda) - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 1390,
+            "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1006",
+            "rating": 4.4
+          },
+          {
+            "id": 1007,
+            "name": "Koi - 1kg",
+            "description": "Koi - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 710,
+            "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1007",
+            "rating": 4.3
+          },
+          {
+            "id": 1008,
+            "name": "Chital - 1kg",
+            "description": "Chital - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 1242,
+            "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
+            "phone": "+8801700000000",
+            "stockStatus": "Out Stock",
+            "stockCode": null,
+            "rating": 4.0
+          },
+          {
+            "id": 1009,
+            "name": "Tangra - 1kg",
+            "description": "Tangra - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 79,
+            "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1009",
+            "rating": 4.1
+          },
+          {
+            "id": 1010,
+            "name": "Kumra (Carp) - 1kg",
+            "description": "Kumra (Carp) - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 628,
+            "image": "https://i.ibb.co.com/QvtngV39/r-2.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1010",
+            "rating": 3.4
+          },
+          {
+            "id": 1011,
+            "name": "Chingri (Tiger Prawn) - 1kg",
+            "description": "Chingri (Tiger Prawn) - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 559,
+            "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1011",
+            "rating": 3.3
+          },
+          {
+            "id": 1012,
+            "name": "Bagda Chingri - 1kg",
+            "description": "Bagda Chingri - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 994,
+            "image": "https://i.ibb.co.com/r2jKcG12/r-4.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1012",
+            "rating": 4.8
+          },
+          {
+            "id": 1013,
+            "name": "Boal - 1kg",
+            "description": "Boal - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 513,
+            "image": "https://i.ibb.co.com/Gf70yWgj/r-1.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1013",
+            "rating": 4.7
+          },
+          {
+            "id": 1014,
+            "name": "Mora - 1kg",
+            "description": "Mora - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 294,
+            "image": "fhttps://i.ibb.co.com/QvtngV39/r-2.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1014",
+            "rating": 3.7
+          },
+          {
+            "id": 1015,
+            "name": "Bombil (Bombay Duck) - 1kg",
+            "description": "Bombil (Bombay Duck) - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 878,
+            "image": "https://i.ibb.co.com/kV4V7XSS/r-3.png",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1015",
+            "rating": 4.3
+          }
+        ]
+      },
+      {
+        "name": "Meat",
+        "items": [
+          {
+            "id": 1016,
+            "name": "Beef Boneless - 1kg",
+            "description": "Beef Boneless - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 755,
+            "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "Out Stock",
+            "stockCode": null,
+            "rating": 4.1
+          },
+          {
+            "id": 1017,
+            "name": "Beef Ribs - 1kg",
+            "description": "Beef Ribs - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 276,
+            "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1017",
+            "rating": 3.9
+          },
+          {
+            "id": 1018,
+            "name": "Beef Mince - 1kg",
+            "description": "Beef Mince - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 332,
+            "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1018",
+            "rating": 4.4
+          },
+          {
+            "id": 1019,
+            "name": "Mutton Leg - 1kg",
+            "description": "Mutton Leg - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 738,
+            "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1019",
+            "rating": 3.6
+          },
+          {
+            "id": 1020,
+            "name": "Mutton Mince - 1kg",
+            "description": "Mutton Mince - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 1436,
+            "image": "https://i.ibb.co.com/VcWPfhRC/beef-cut.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1020",
+            "rating": 4.0
+          },
+          {
+            "id": 1021,
+            "name": "Goat Curry Cut - 1kg",
+            "description": "Goat Curry Cut - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 1207,
+            "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1021",
+            "rating": 4.5
+          },
+          {
+            "id": 1022,
+            "name": "Buffalo Meat - 1kg",
+            "description": "Buffalo Meat - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 1370,
+            "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1022",
+            "rating": 3.2
+          },
+          {
+            "id": 1023,
+            "name": "Lamb Chops - 1kg",
+            "description": "Lamb Chops - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 721,
+            "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1023",
+            "rating": 3.8
+          },
+          {
+            "id": 1024,
+            "name": "Chicken Whole - 1kg",
+            "description": "Chicken Whole - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 251,
+            "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1024",
+            "rating": 4.6
+          },
+          {
+            "id": 1025,
+            "name": "Chicken Breast - 1kg",
+            "description": "Chicken Breast - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 118,
+            "image": "https://i.ibb.co.com/VcWPfhRC/beef-cut.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1025",
+            "rating": 3.6
+          },
+          {
+            "id": 1026,
+            "name": "Chicken Thigh - 1kg",
+            "description": "Chicken Thigh - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 221,
+            "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1026",
+            "rating": 3.0
+          },
+          {
+            "id": 1027,
+            "name": "Chicken Liver - 1kg",
+            "description": "Chicken Liver - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 482,
+            "image": "https://i.ibb.co.com/gMrRnWY7/beef-rish.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "Out Stock",
+            "stockCode": null,
+            "rating": 4.3
+          },
+          {
+            "id": 1028,
+            "name": "Chicken Mince - 1kg",
+            "description": "Chicken Mince - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 589,
+            "image": "https://i.ibb.co.com/ccBMXcYY/beef-Misch.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1028",
+            "rating": 3.9
+          },
+          {
+            "id": 1029,
+            "name": "Duck Meat - 1kg",
+            "description": "Duck Meat - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 440,
+            "image": "https://i.ibb.co.com/V06xqbs2/beef-leg.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "In Stock",
+            "stockCode": "STK-1029",
+            "rating": 3.4
+          },
+          {
+            "id": 1030,
+            "name": "Quail - 1kg",
+            "description": "Quail - 1kg — high quality, fresh & carefully selected for your needs.",
+            "price": 926,
+            "image": "https://i.ibb.co.com/bM4JWvbC/Beef.jpg",
+            "phone": "+8801700000000",
+            "stockStatus": "Out Stock",
+            "stockCode": null,
+            "rating": 4.8
           }
         ]
       }
