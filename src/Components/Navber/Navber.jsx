@@ -285,7 +285,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
     const [showcart, setShowCart] = useState(false);
     return (
         <>
-           <div className="sticky top-0 w-full z-50 bg-white">
+           <div className="fixed top-0 w-full z-50 bg-white">
                 {/* 🔹 Top Info Bar */}
                 <div className="bg-[#f3f4f6] hidden md:block">
                     <div className="container mx-auto  flex justify-between items-center text-xs text-gray-500 py-2 px-10 font-medium">

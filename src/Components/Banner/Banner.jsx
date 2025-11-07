@@ -10,7 +10,7 @@ import couponData from "../../../public/copon.json";
 
 const Banner = () => {
     return (
-        <div className="container mx-auto flex flex-col md:flex-row gap-4 my-6 px-10">
+        <div className="container mx-auto flex flex-col md:flex-row gap-4 my-6 px-10 mt-50">
             {/* Left side slider */}
             <div className="md:w-2/3 w-full">
                 <Swiper

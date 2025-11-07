@@ -2,22 +2,24 @@
     {
         "id": 1,
         "img": "https://i.ibb.co.com/6R7TNFwY/himalaya.png",
-        "title": "Himalaya ",
+        "title": "Himalaya",
         "rating": 4.5,
         "review": 1284,
         "originalPrice": 500.00,
         "discountPrice": 400.00,
-        "offer": "33% OFF"
+        "offer": "33% OFF",
+        "des": "Fresh and organic Himalaya product, full of natural goodness that keeps you refreshed."
     },
     {
         "id": 2,
         "img": "https://i.ibb.co.com/PsbFQsMC/kale.png",
-        "title":"Kale Sprouts",
+        "title": "Kale Sprouts",
         "rating": 4.2,
         "review": 943,
         "originalPrice": 119.99,
         "discountPrice": 84.99,
-        "offer": "29% OFF"
+        "offer": "29% OFF",
+        "des": "Green leafy Kale Sprouts rich in vitamins and minerals, perfect for salads and smoothies."
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "review": 2201,
         "originalPrice": 69.99,
         "discountPrice": 59.99,
-        "offer": "33% OFF"
+        "offer": "33% OFF",
+        "des": "Red leafy Radicchio adds unique color and flavor to salads."
     },
     {
         "id": 4,
@@ -37,7 +40,8 @@
         "review": 712,
         "originalPrice": 199.99,
         "discountPrice": 150.00,
-        "offer": "30% OFF"
+        "offer": "30% OFF",
+        "des": "Juicy and sweet strawberries, rich in Vitamin C and perfect for a healthy diet."
     },
     {
         "id": 5,
@@ -47,7 +51,8 @@
         "review": 1567,
         "originalPrice": 129.99,
         "discountPrice": 89.99,
-        "offer": "31% OFF"
+        "offer": "31% OFF",
+        "des": "Fresh imported pineapple, naturally sweet and full of nutrients."
     },
     {
         "id": 6,
@@ -55,9 +60,10 @@
         "title": "Orgain baby Carrot",
         "rating": 4.1,
         "review": 876,
-        "originalPrice":80.99,
+        "originalPrice": 80.99,
         "discountPrice": 60.99,
-        "offer": "33% OFF"
+        "offer": "33% OFF",
+        "des": "Organic baby carrots, perfect for snacks or salads."
     },
     {
         "id": 7,
@@ -67,7 +73,8 @@
         "review": 1299,
         "originalPrice": 80.99,
         "discountPrice": 65.50,
-        "offer": "32% OFF"
+        "offer": "32% OFF",
+        "des": "Small-sized pumpkin great for soups, pies, and curries."
     },
     {
         "id": 8,
@@ -77,7 +84,8 @@
         "review": 1745,
         "originalPrice": 39.99,
         "discountPrice": 27.99,
-        "offer": "30% OFF"
+        "offer": "30% OFF",
+        "des": "Fresh cauliflower, perfect for fry, curry, or salad recipes."
     },
     {
         "id": 9,
@@ -87,7 +95,8 @@
         "review": 2011,
         "originalPrice": 99.99,
         "discountPrice": 69.99,
-        "offer": "30% OFF"
+        "offer": "30% OFF",
+        "des": "French green beans, low in calories and rich in fiber."
     },
     {
         "id": 10,
@@ -97,7 +106,8 @@
         "review": 423,
         "originalPrice": 19.99,
         "discountPrice": 12.99,
-        "offer": "35% OFF"
+        "offer": "35% OFF",
+        "des": "Chinese broccoli, a green leafy vegetable high in protein and vitamins."
     },
     {
         "id": 11,
@@ -107,7 +117,8 @@
         "review": 888,
         "originalPrice": 149.99,
         "discountPrice": 104.99,
-        "offer": "30% OFF"
+        "offer": "30% OFF",
+        "des": "Juicy oranges rich in Vitamin C and antioxidants for better immunity."
     },
     {
         "id": 12,
@@ -117,7 +128,8 @@
         "review": 564,
         "originalPrice": 34.99,
         "discountPrice": 24.99,
-        "offer": "29% OFF"
+        "offer": "29% OFF",
+        "des": "Fresh pomelo helps digestion and keeps your body cool and refreshed."
     },
     {
         "id": 13,
@@ -127,7 +139,8 @@
         "review": 1207,
         "originalPrice": 269.99,
         "discountPrice": 228.99,
-        "offer": "30% OFF"
+        "offer": "30% OFF",
+        "des": "Himalaya products made with natural ingredients for skin and body care."
     },
     {
         "id": 14,
@@ -137,7 +150,7 @@
         "review": 756,
         "originalPrice": 159.99,
         "discountPrice": 111.99,
-        "offer": "30% OFF"
+        "offer": "30% OFF",
+        "des": "Premium French green beans, perfect for salads or stir-fry dishes."
     }
-    
 ]

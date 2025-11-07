@@ -8,7 +8,7 @@ import { ProductContext } from "../QuickView/QuickView"; // path adjust কর�
 import { useOutletContext } from "react-router-dom";
 import { TbCurrencyTaka } from "react-icons/tb";
 
-const Items = ({ selectedSub }) => {
+const Items = ({ selectedSub, onBack }) => {
     const { selectedProduct, setSelectedProduct } = useContext(ProductContext);
     const { handleAddToCart } =useOutletContext();
     const [visibleCount, setVisibleCount] = useState(8);
@@ -23,6 +23,15 @@ const Items = ({ selectedSub }) => {
 
     return (
         <div className="container mx-auto px-8 py-10">
+            {/* 🟢 Back Button */}
+            <div className="flex justify-start mb-6">
+                <button
+                    onClick={onBack}
+                    className="bg-[#00bc7d] hover:bg-[#009e68] text-white px-4 py-2 rounded-md font-medium transition duration-200 shadow-sm"
+                >
+                    ← Back
+                </button>
+            </div>
             {/* Title */}
             <div className="mb-10 max-w-2xl container mx-auto">
                 <h2 className="text-2xl font-semibold text-center mb-8">
