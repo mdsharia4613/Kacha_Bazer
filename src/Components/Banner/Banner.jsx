@@ -47,7 +47,7 @@ const Banner = () => {
             </div>
 
             {/* Right side coupons */}
-            <div className="md:w-1/3 w-full flex flex-col gap-4 border-3 border-orange-500 rounded-xl">
+            <div className="md:w-1/3 w-full flex flex-col gap-4 border-2 border-orange-500 rounded-xl ">
                 <h2 className="bg-[#ffedd4] font-medium py-2.5 text-center text-sm rounded-t-xl">
                     Latest Super Discount Active Coupon Code
                 </h2>
