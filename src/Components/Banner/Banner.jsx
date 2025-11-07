@@ -5,18 +5,12 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Autoplay, Pagination } from "swiper/modules";
 
-import img1 from "../../assets/banner/img-1.jpeg";
-import img2 from "../../assets/banner/img-2.jpeg";
-import img3 from "../../assets/banner/img-3.jpg";
+import bannerData from "../../../public/banner.json";
 import couponData from "../../../public/copon.json";
-
-const sliderImage = [img1, img2, img3];
-
-
 
 const Banner = () => {
     return (
-        <div className="container mx-auto flex flex-col md:flex-row gap-4 my-6  px-4">
+        <div className="container mx-auto flex flex-col md:flex-row gap-4 my-6 px-10">
             {/* Left side slider */}
             <div className="md:w-2/3 w-full">
                 <Swiper
@@ -27,9 +21,26 @@ const Banner = () => {
                     modules={[Pagination, Autoplay]}
                     className="rounded-xl overflow-hidden shadow-md"
                 >
-                    {sliderImage.map((img, index) => (
-                        <SwiperSlide key={index}>
-                            <img src={img} alt={`Slide ${index + 1}`} className="w-full object-contain" />
+                    {bannerData.map((slide) => (
+                        <SwiperSlide key={slide.id} className="relative">
+                            <img
+                                src={slide.image}
+                                alt={slide.title}
+                                className="w-full h-[400px] lg:h-[460px] object-cover rounded-xl"
+                            />
+
+                            {/* Text overlay */}
+                            <div className="absolute max-w-xl space-y-2 inset-0 text-black flex flex-col justify-center items-start  px-10 md:px-16">
+                                <h2 className="text-3xl md:text-4xl font-bold mb-2">
+                                    {slide.title}
+                                </h2>
+                                <p className="text-sm md:text-base mb-4 opacity-90 text-gray-500">
+                                    {slide.description}
+                                </p>
+                                <button className="bg-[#00bc7d] hover:bg-[#009e68] text-white transition duration-200 px-5 py-2 rounded-md text-sm font-medium shadow-md">
+                                    {slide.buttonText}
+                                </button>
+                            </div>
                         </SwiperSlide>
                     ))}
                 </Swiper>
@@ -78,7 +89,7 @@ const Banner = () => {
                                 </div>
 
                                 {/* Vertical dashed line */}
-                                <div className="relative h-24 border-l border-dashed border-gray-300 mx-2">
+                                <div className="relative h-24 border-l border-dashed border-gray-400 mx-2">
                                     <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-6 h-6 bg-white rounded-full shadow-inner"></div>
                                     <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-6 h-6 bg-white rounded-full shadow-inner"></div>
                                 </div>

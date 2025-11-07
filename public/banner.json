@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co.com/nqKjRLPm/img-1.jpg",
+        "title": "Fresh Grocery Deals Every Day",
+        "description": "Get up to 30% off on daily essentials like fruits, vegetables, and cooking items.",
+        "buttonText": "Shop Now"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co.com/hR3qmwDK/img-2.jpg",
+        "title": "Exclusive Fashion Collections",
+        "description": "Upgrade your wardrobe with our latest trendy outfits at amazing discounts.",
+        "buttonText": "Shop Now"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co.com/5gwdc9wL/img-3.jpg",
+        "title": "Mega Electronics Sale",
+        "description": "Grab the latest gadgets and electronics at unbeatable prices. Limited time offer!",
+        "buttonText": "Shop Now"
+    }
+]
