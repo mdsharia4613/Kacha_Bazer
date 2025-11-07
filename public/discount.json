@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/6R7TNFwY/himalaya.png",
+        "title": "Himalaya ",
+        "rating": 4.5,
+        "review": 1284,
+        "originalPrice": 500.00,
+        "discountPrice": 400.00,
+        "offer": "33% OFF"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/PsbFQsMC/kale.png",
+        "title":"Kale Sprouts",
+        "rating": 4.2,
+        "review": 943,
+        "originalPrice": 119.99,
+        "discountPrice": 84.99,
+        "offer": "29% OFF"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/YB7hXXJj/Radicch.png",
+        "title": "Radicchio",
+        "rating": 4.7,
+        "review": 2201,
+        "originalPrice": 69.99,
+        "discountPrice": 59.99,
+        "offer": "33% OFF"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/F43z1CSk/stowberrie.png",
+        "title": "Strawberrie",
+        "rating": 4.4,
+        "review": 712,
+        "originalPrice": 199.99,
+        "discountPrice": 150.00,
+        "offer": "30% OFF"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/HfJYST1n/Pineapple.png",
+        "title": "Pineapple Imported",
+        "rating": 4.8,
+        "review": 1567,
+        "originalPrice": 129.99,
+        "discountPrice": 89.99,
+        "offer": "31% OFF"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/zWpqWkGL/carrot.png",
+        "title": "Orgain baby Carrot",
+        "rating": 4.1,
+        "review": 876,
+        "originalPrice":80.99,
+        "discountPrice": 60.99,
+        "offer": "33% OFF"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co.com/3YLbgRqV/pumkin.png",
+        "title": "Mini Pumpkin",
+        "rating": 4.6,
+        "review": 1299,
+        "originalPrice": 80.99,
+        "discountPrice": 65.50,
+        "offer": "32% OFF"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co.com/2HmgL4k/cauli.png",
+        "title": "Iolotex Cauliflower",
+        "rating": 4.3,
+        "review": 1745,
+        "originalPrice": 39.99,
+        "discountPrice": 27.99,
+        "offer": "30% OFF"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co.com/8ngZdVgC/beans.png",
+        "title": "French Green Beans",
+        "rating": 4.5,
+        "review": 2011,
+        "originalPrice": 99.99,
+        "discountPrice": 69.99,
+        "offer": "30% OFF"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co.com/YK1KHvP/Chinese.png",
+        "title": "Chinese Broccoli",
+        "rating": 4.0,
+        "review": 423,
+        "originalPrice": 19.99,
+        "discountPrice": 12.99,
+        "offer": "35% OFF"
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co.com/cXwcLbf2/orange.png",
+        "title": "Orange",
+        "rating": 4.3,
+        "review": 888,
+        "originalPrice": 149.99,
+        "discountPrice": 104.99,
+        "offer": "30% OFF"
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co.com/BVjRY8YW/pomelo.png",
+        "title": "pomelo",
+        "rating": 4.2,
+        "review": 564,
+        "originalPrice": 34.99,
+        "discountPrice": 24.99,
+        "offer": "29% OFF"
+    },
+    {
+        "id": 13,
+        "img": "https://i.ibb.co.com/6R7TNFwY/himalaya.png",
+        "title": "Himalaya",
+        "rating": 4.4,
+        "review": 1207,
+        "originalPrice": 269.99,
+        "discountPrice": 228.99,
+        "offer": "30% OFF"
+    },
+    {
+        "id": 14,
+        "img": "https://i.ibb.co.com/8ngZdVgC/beans.png",
+        "title": "French Green Beansr",
+        "rating": 4.6,
+        "review": 756,
+        "originalPrice": 159.99,
+        "discountPrice": 111.99,
+        "offer": "30% OFF"
+    }
+    
+]

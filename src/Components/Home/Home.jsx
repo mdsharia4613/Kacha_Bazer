@@ -2,6 +2,7 @@
 import Banner from '../Banner/Banner';
 import BannerB from '../Banner/BannerB';
 import Categorys from '../Categorys/Categorys';
+import Delivery from '../Delivery/Delivery';
 import TopRating from '../TopRating/TopRating';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <BannerB></BannerB>
             <Categorys></Categorys>
             <TopRating></TopRating>
+            <Delivery></Delivery>
             
         </div>
     );

@@ -44,7 +44,7 @@ const Root = () => {
     const productCount = cartItems.length;
     
     return (
-        <div>
+        <div className='overflow-hidden'>
             <Navber productCount={productCount} cartItems={cartItems} handleIncrease={handleIncrease} handleDecrease={handleDecrease} handleRemove={handleRemove}></Navber>
             <QuickViewProvider handleAddToCart={handleAddToCart}>
                 <Outlet context={{ handleAddToCart }} />
