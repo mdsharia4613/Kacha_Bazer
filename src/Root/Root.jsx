@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Navber from '../Components/Navber/Navber';
 import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
+import QuickViewProvider from '../Components/QuickView/QuickView'; // path ঠিক করুন
 
 
 const Root = () => {
@@ -45,7 +46,10 @@ const Root = () => {
     return (
         <div>
             <Navber productCount={productCount} cartItems={cartItems} handleIncrease={handleIncrease} handleDecrease={handleDecrease} handleRemove={handleRemove}></Navber>
-            <Outlet context={{handleAddToCart}}></Outlet>
+            <QuickViewProvider>
+                <Outlet context={{ handleAddToCart }} />
+            </QuickViewProvider>
+
             <Footer></Footer>
         </div>
     );
