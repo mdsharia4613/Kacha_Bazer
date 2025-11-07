@@ -52,21 +52,27 @@ const TopRating = () => {
                             className="relative border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white w-72 group overflow-hidden"
                             whileHover={{ scale: 1.03 }}
                         >
-                            <img
-                                className="w-full h-44 pt-2 object-contain rounded-xl mb-3 bg-gray-100 p-3"
-                                src={item.image}
-                                alt={item.name}
-                            />
+                            {/* Product Image */}
+                            <div className="relative">
+                                <img
+                                    className="w-full h-44 pt-2 object-contain rounded-xl mb-3 bg-gray-100 p-3"
+                                    src={item.image}
+                                    alt={item.name}
+                                />
 
-                            {/* Hover Quick View Button */}
-                            <button
-                                onClick={() => setSelectedProduct(item)}
-                                className="absolute cursor-pointer inset-0 flex items-center  justify-center gap-2   text-red-500 font-medium text-sm 
-                  opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"
-                            >
-                                <HiOutlineViewfinderCircle className="text-lg" />
-                                <span>Quick View</span>
-                            </button>
+                                {/* Hover Quick View Button */}
+                                <button
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        setSelectedProduct(item);
+                                    }}
+                                    className="absolute inset-0 flex items-center justify-center gap-2 text-white font-medium text-sm bg-black/60 
+                                    opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                >
+                                    <HiOutlineViewfinderCircle className="text-lg" />
+                                    <span>Quick View</span>
+                                </button>
+                            </div>
 
                             <h3 className="text-lg font-semibold text-gray-700 mb-1">{item.name}</h3>
                             <p className="text-lg font-bold text-cyan-600">৳{item.price}</p>
@@ -83,7 +89,10 @@ const TopRating = () => {
                             {/* Rating & Cart */}
                             <div className="flex justify-between items-center">
                                 <button
-                                    onClick={() => handleAddToCart(item)}
+                                    onClick={(e) => {
+                                        e.stopPropagation(); // prevent modal trigger
+                                        handleAddToCart(item);
+                                    }}
                                     className="mt-4 bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
                                 >
                                     <FaShoppingBag fontSize="20" />
