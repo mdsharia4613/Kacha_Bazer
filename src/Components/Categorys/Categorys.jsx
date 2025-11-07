@@ -1,19 +1,14 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { FaAngleRight } from "react-icons/fa6"; import Items from "./Items";
 import { useNavigate } from "react-router-dom";
+import UseCategory from "../../Hook/UseCategory";
 
 
 const Categorys = () => {
-    const [categorys , setCategorys] = useState([]);
     const [selectedSub, setSelectedSub] = useState(null);
     const navigate = useNavigate();
-
-    useEffect( () => {
-        fetch('/category_data.json')
-        .then(res => res.json())
-        .then(data => setCategorys(data))
-        // .catch(err => console.log('Failed to load data', err));
-    } ,[])
+    const categorys = UseCategory();
+  
     return (
         <div className="container mx-auto px-10 -py-5 mt-10 mb-10">
             <h2 className="text-3xl font-bold text-center mb-6">Featured Categories</h2>

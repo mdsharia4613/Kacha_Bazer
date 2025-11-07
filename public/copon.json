@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co.com/8D7vhT24/img-4.jpg",
+        "discount": "50%",
+        "title": "August Gift Voucher",
+        "code": "AUGUST24",
+        "minPurchase": "$2000",
+        "status": "Inactive"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co.com/KdMcBjn/img-5.jpg",
+        "discount": "10%",
+        "title": "Summer Gift Voucher",
+        "code": "SUMMER24",
+        "minPurchase": "$1000",
+        "status": "Inactive"
+    }
+
+]
