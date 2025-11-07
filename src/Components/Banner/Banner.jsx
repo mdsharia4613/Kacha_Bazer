@@ -7,7 +7,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 import img1 from "../../assets/banner/img-1.jpeg";
 import img2 from "../../assets/banner/img-2.jpeg";
-import img3 from "../../assets/banner/img-3.jpeg";
+import img3 from "../../assets/banner/img-3.jpg";
 import couponData from "../../../public/copon.json";
 
 const sliderImage = [img1, img2, img3];
@@ -29,7 +29,7 @@ const Banner = () => {
                 >
                     {sliderImage.map((img, index) => (
                         <SwiperSlide key={index}>
-                            <img src={img} alt={`Slide ${index + 1}`} className="w-full object-cover" />
+                            <img src={img} alt={`Slide ${index + 1}`} className="w-full object-contain" />
                         </SwiperSlide>
                     ))}
                 </Swiper>

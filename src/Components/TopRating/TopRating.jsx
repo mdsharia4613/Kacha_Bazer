@@ -61,7 +61,7 @@ const TopRating = () => {
                             {/* Hover Quick View Button */}
                             <button
                                 onClick={() => setSelectedProduct(item)}
-                                className="absolute inset-0 flex items-center  justify-center gap-2  bg-opacity-50 text-red-500 font-medium text-sm 
+                                className="absolute cursor-pointer inset-0 flex items-center  justify-center gap-2   text-red-500 font-medium text-sm 
                   opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"
                             >
                                 <HiOutlineViewfinderCircle className="text-lg" />

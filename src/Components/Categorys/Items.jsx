@@ -41,13 +41,14 @@ const Items = ({ selectedSub, onBack, }) => {
 
                             <p className="text-lg font-bold text-cyan-600">${item.price}</p>
                             <p
-                                className={`absolute -top-1 text-xs font-medium mt-1 text-white px-0.5 py-0.5 left-0  rounded-tl-xl rounded-br-xl ${item.stockStatus === "In Stock"
-                                    ? "bg-green-500"
-                                    : "bg-red-500"
+                                className={`absolute -top-1 text-xs font-medium mt-1 text-white px-0.5 py-0.5 left-0 rounded-tl-xl rounded-br-xl ${item.stockStatus === 'In Stock'
+                                    ? 'bg-green-500'
+                                    : 'bg-red-500'
                                     }`}
                             >
                                 {item.stockStatus}
                             </p>
+
 
                             <div className="flex justify-between items-center">
                                 <button  onClick={() => handleAddToCart(item)} className="mt-4 bg-[#00bc7d] text-white  py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200">
