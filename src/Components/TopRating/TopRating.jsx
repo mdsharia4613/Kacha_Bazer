@@ -8,6 +8,7 @@ import { ProductContext } from '../QuickView/QuickView';
 import { IoClose } from 'react-icons/io5';
 import { HiOutlineViewfinderCircle } from 'react-icons/hi2';
 import { TbCurrencyTaka } from 'react-icons/tb';
+import img from "../../assets/delivary/line.png"
 
 const TopRating = () => {
     const { handleAddToCart } = useOutletContext();
@@ -35,7 +36,7 @@ const TopRating = () => {
                 <h2 className="text-2xl font-semibold text-center mb-8">
                     Popular Products for Daily Shopping
                 </h2>
-                
+
             </div>
 
             {/* Product Cards */}
@@ -48,11 +49,11 @@ const TopRating = () => {
                     return (
                         <motion.div
                             key={item.id}
-                            className="relative border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white w-72 group overflow-hidden"
+                            className="relative bg-amber-50 border border-gray-200 hover:border-[#00a86b] rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300  w-72 group overflow-hidden"
                             whileHover={{ scale: 1.03 }}
                         >
                             {/* Product Image */}
-                            <div className="relative">
+                            <div className="relative ">
                                 <img
                                     className="w-full h-44 pt-2 object-contain rounded-xl mb-3 bg-gray-100 p-3"
                                     src={item.image}
@@ -79,7 +80,7 @@ const TopRating = () => {
                             <p
                                 className={`absolute -top-1 text-xs font-medium mt-1 text-white px-0.5 py-0.5 left-0 rounded-tl-xl rounded-br-xl ${item.stockStatus === 'In Stock'
                                     ? 'bg-green-500'
-                                    : 'bg-red-500'
+                                    : 'bg-yellow-400'
                                     }`}
                             >
                                 {item.stockStatus}
@@ -106,6 +107,9 @@ const TopRating = () => {
                                     </div>
                                     <span>{item.rating}</span>
                                 </div>
+                            </div>
+                            <div className="flex items-center justify-center mt-3">
+                                <img className="w-full" src={img} alt="" />
                             </div>
                         </motion.div>
                     );

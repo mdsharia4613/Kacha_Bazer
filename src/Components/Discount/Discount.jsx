@@ -24,7 +24,7 @@ const Discount = () => {
             </div>
 
             <div className="container mx-auto my-10 ">
-                <div className="flex flex-wrap gap-5 max-w-[1350px] mx-auto">
+                <div className="flex flex-wrap gap-5 max-w-[1350px] mx-auto ">
                     {discountData.map((item) => {
                         const fullStar = Math.floor(item.rating);
                         const halfStar = item.rating % 1 >= 0.5;
@@ -32,7 +32,7 @@ const Discount = () => {
                         return (
                             <motion.div
                                 key={item.id}
-                                className="relative border border-gray-100 shadow hover:shadow-lg p-4 rounded-lg space-y-1.5 text-xs group overflow-hidden"
+                                className="relative bg-amber-50 border border-gray-100 shadow hover:shadow-lg p-4 rounded-lg space-y-1.5 text-xs group overflow-hidden"
                             >
                                 {/* Product Image */}
                                 <img

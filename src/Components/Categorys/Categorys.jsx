@@ -18,7 +18,7 @@ const Categorys = () => {
                     ">
                         {
                             categorys.map((category) => (
-                                <div key={category.id} className="border border-gray-200 p-4 rounded-lg shadow space-y-1 flex items-center gap-6 transition-all duration-500 hover:shadow-xl hover:bg-gray-50 ">
+                                <div key={category.id} className="border hover:bg-[#ffedd4] border-gray-200 p-4 rounded-lg shadow space-y-1 flex items-center gap-6 transition-all duration-500 hover:shadow-xl  ">
                                    <div className="flex justify-center ">
                                         <img className="w-15 h-auto" src={category.categoryImage} alt="" />
                                         
