@@ -34,9 +34,7 @@ const TopRating = () => {
                 <h2 className="text-2xl font-semibold text-center mb-8">
                     Popular Products for Daily Shopping
                 </h2>
-                <p className='text-[16px] text-center text-gray-500'>
-                    See all our popular products in this week. You can choose your daily needs products from this list and get some special offer with free shipping.
-                </p>
+                
             </div>
 
             {/* Product Cards */}

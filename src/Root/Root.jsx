@@ -46,7 +46,7 @@ const Root = () => {
     return (
         <div>
             <Navber productCount={productCount} cartItems={cartItems} handleIncrease={handleIncrease} handleDecrease={handleDecrease} handleRemove={handleRemove}></Navber>
-            <QuickViewProvider>
+            <QuickViewProvider handleAddToCart={handleAddToCart}>
                 <Outlet context={{ handleAddToCart }} />
             </QuickViewProvider>
 

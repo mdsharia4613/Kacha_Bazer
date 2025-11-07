@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 
 export const ProductContext = createContext();
 
-const QuickViewProvider = ({ children }) => {
+const QuickViewProvider = ({ children, handleAddToCart }) => {
     const [selectedProduct, setSelectedProduct] = useState(null);
 
     return (
@@ -52,7 +52,15 @@ const QuickViewProvider = ({ children }) => {
                             <p className="text-center text-gray-600 mb-4">
                                 {selectedProduct.description || "No detailed description available."}
                             </p>
-                        </motion.div>
+                            <button
+                                onClick={() => {
+                                    handleAddToCart(selectedProduct);
+                                    setSelectedProduct(null);
+                                }}
+                                className="bg-[#00bc7d] text-white w-full py-2 rounded-md hover:bg-[#009e68] transition duration-200"
+                            >
+                                Add to Cart
+                            </button>                        </motion.div>
                     </motion.div>
                 )}
             </AnimatePresence>

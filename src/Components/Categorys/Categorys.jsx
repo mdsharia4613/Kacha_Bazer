@@ -14,7 +14,8 @@ const Categorys = () => {
             <h2 className="text-3xl font-bold text-center mb-6">Featured Categories</h2>
             <div>
                 {!selectedSub ? (
-                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 );
+                    ">
                         {
                             categorys.map((category) => (
                                 <div key={category.id} className="border border-gray-200 p-4 rounded-lg shadow space-y-1 flex items-center gap-6 transition-all duration-500 hover:shadow-xl hover:bg-gray-50 ">
