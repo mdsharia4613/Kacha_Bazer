@@ -5,7 +5,7 @@ import img2 from '../../assets/about/img-2.jpeg';
 import img3 from '../../assets/about/img-3.jpeg';
 import img4 from '../../assets/about/img-4.jpg'
 import ourTeam from "../../../public/OurTeam.json";
-import { iterate } from 'localforage';
+
 
 const About_Us = () => {
     return (
