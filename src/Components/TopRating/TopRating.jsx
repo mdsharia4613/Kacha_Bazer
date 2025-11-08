@@ -49,7 +49,7 @@ const TopRating = () => {
                     return (
                         <motion.div
                             key={item.id}
-                            className="relative bg-amber-50 border border-gray-200 hover:border-[#00a86b] rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300  w-72 group overflow-hidden"
+                            className="relative bg-amber-50 border border-gray-100 hover:border-[#00a86b] rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300  w-72 group overflow-hidden"
                             whileHover={{ scale: 1.03 }}
                         >
                             {/* Product Image */}
@@ -79,8 +79,8 @@ const TopRating = () => {
 
                             <p
                                 className={`absolute -top-1 text-xs font-medium mt-1 text-white px-0.5 py-0.5 left-0 rounded-tl-xl rounded-br-xl ${item.stockStatus === 'In Stock'
-                                    ? 'bg-green-500'
-                                    : 'bg-yellow-400'
+                                    ? 'bg-[#00bc7d]'
+                                    : 'bg-orange-400'
                                     }`}
                             >
                                 {item.stockStatus}
@@ -88,15 +88,7 @@ const TopRating = () => {
 
                             {/* Rating & Cart */}
                             <div className="flex justify-between items-center">
-                                <button
-                                    onClick={(e) => {
-                                        e.stopPropagation(); // prevent modal trigger
-                                        handleAddToCart(item);
-                                    }}
-                                    className="mt-4 bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
-                                >
-                                    <FaShoppingBag fontSize="20" />
-                                </button>
+                                
                                 <div className="flex items-center gap-2">
                                     <div className="flex">
                                         {Array.from({ length: 5 }, (_, i) => {
@@ -107,6 +99,15 @@ const TopRating = () => {
                                     </div>
                                     <span>{item.rating}</span>
                                 </div>
+                                <button
+                                    onClick={(e) => {
+                                        e.stopPropagation(); // prevent modal trigger
+                                        handleAddToCart(item);
+                                    }}
+                                    className="mt-4 bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
+                                >
+                                    <FaShoppingBag fontSize="20" />
+                                </button>
                             </div>
                             <div className="flex items-center justify-center mt-3">
                                 <img className="w-full" src={img} alt="" />

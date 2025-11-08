@@ -90,15 +90,6 @@ const Items = ({ selectedSub, onBack }) => {
 
                             {/* Rating & Cart */}
                             <div className="flex justify-between items-center mt-3">
-                                <button
-                                    onClick={(e) => {
-                                        e.stopPropagation(); // prevent modal trigger
-                                        handleAddToCart(item);
-                                    }}
-                                    className="bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
-                                >
-                                    <FaBagShopping fontSize="20" />
-                                </button>
 
                                 <div className="flex items-center gap-2">
                                     <div className="flex">
@@ -111,6 +102,15 @@ const Items = ({ selectedSub, onBack }) => {
                                     </div>
                                     <span>{item.rating}</span>
                                 </div>
+                                <button
+                                    onClick={(e) => {
+                                        e.stopPropagation(); // prevent modal trigger
+                                        handleAddToCart(item);
+                                    }}
+                                    className="bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
+                                >
+                                    <FaBagShopping fontSize="20" />
+                                </button>
                                 
                             </div>
                             <div className="flex items-center justify-center mt-4">

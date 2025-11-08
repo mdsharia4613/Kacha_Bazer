@@ -4,6 +4,7 @@ import BannerB from '../Banner/BannerB';
 import Categorys from '../Categorys/Categorys';
 import Delivery from '../Delivery/Delivery';
 import Discount from '../Discount/Discount';
+import FooterTop from '../FooterTop/FooterTop';
 import TopRating from '../TopRating/TopRating';
 
 const Home = () => {
@@ -13,10 +14,13 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <BannerB></BannerB>
-            <Categorys></Categorys>
-            <TopRating></TopRating>
-            <Delivery></Delivery>
-            <Discount></Discount>
+            <Categorys className=""></Categorys>
+            <div className='bg-[#f9fafb] py-5'>
+                <TopRating></TopRating>
+                <Delivery></Delivery>
+                <Discount></Discount>
+            </div>
+            <FooterTop></FooterTop>
             
         </div>
     );
