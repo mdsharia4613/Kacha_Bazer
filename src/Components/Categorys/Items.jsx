@@ -62,7 +62,7 @@ const Items = ({ selectedSub, }) => {
                                         e.stopPropagation();
                                         setSelectedProduct(item);
                                     }}
-                                    className="absolute inset-0 flex items-center justify-center gap-2 text-white font-medium text-sm bg-black/60
+                                    className="absolute inset-0 flex items-center justify-center gap-2 text-white font-bold cursor-pointer text-sm bg-black/40
                     opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                 >
                                     <HiOutlineViewfinderCircle className="text-lg" />
@@ -100,7 +100,7 @@ const Items = ({ selectedSub, }) => {
                                         e.stopPropagation(); // prevent modal trigger
                                         handleAddToCart(item);
                                     }}
-                                    className="bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
+                                    className="bg-[#00bc7d] text-white py-2 px-2 cursor-pointer rounded-full hover:bg-[#00a86b] transition duration-200"
                                 >
                                     <FaBagShopping fontSize="20" />
                                 </button>

@@ -66,10 +66,10 @@ const TopRating = () => {
                                         e.stopPropagation();
                                         setSelectedProduct(item);
                                     }}
-                                    className="absolute inset-0 flex items-center justify-center gap-2 text-white font-medium text-sm bg-black/60 
-                                    opacity-0 group-hover:opacity-100 transition-opacity duration-300 "
+                                    className="absolute cursor-pointer  inset-0 flex items-center justify-center gap-2 text-white font-medium text-sm
+                                    opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/40"
                                 >
-                                    <HiOutlineViewfinderCircle className="text-lg" />
+                                    <HiOutlineViewfinderCircle className="text-lg cursor-pointer" />
                                     <span>Quick View</span>
                                 </button>
                             </div>
@@ -104,7 +104,7 @@ const TopRating = () => {
                                         e.stopPropagation(); // prevent modal trigger
                                         handleAddToCart(item);
                                     }}
-                                    className="mt-4 bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
+                                    className="mt-4 bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200 cursor-pointer"
                                 >
                                     <FaShoppingBag fontSize="20" />
                                 </button>
@@ -138,7 +138,7 @@ const TopRating = () => {
                     >
                         {/* Background Overlay */}
                         <motion.div
-                            className="absolute inset-0 bg-black/50 backdrop-blur-sm brightness-50 "
+                            className="absolute inset-0  backdrop-blur-sm brightness-50 "
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}

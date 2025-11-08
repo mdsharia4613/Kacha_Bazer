@@ -47,8 +47,8 @@ const Discount = () => {
                                         e.stopPropagation();
                                         setSelectedProduct(item);
                                     }}
-                                    className="absolute inset-0 flex items-center justify-center gap-2 text-white font-medium text-sm bg-black/60 
-                  opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                    className="absolute inset-0 flex items-center justify-center gap-2 text-white font-bold text-sm bg-black/30 
+                  opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"
                                 >
                                     <HiOutlineViewfinderCircle className="text-lg" />
                                     <span>Quick View</span>
@@ -117,7 +117,7 @@ const Discount = () => {
                                             price: item.discountPrice, // 🟢 মূল দাম discountPrice থেকে পাঠানো হলো
                                         });
                                     }}
-                                    className="bg-[#00bc7d] absolute right-2 bottom-28 text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
+                                    className="bg-[#00bc7d] absolute right-2 bottom-28 text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200 cursor-pointer"
                                 >
                                     <FaBagShopping fontSize={20} />
                                 </button>

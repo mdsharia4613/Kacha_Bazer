@@ -373,7 +373,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                                     <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-0.5 rounded-full">{productCount}</span>
                                 )}
                                 {showcart && (
-                                    <div className="absolute bg-white right-0 text-black top-8 p-3 rounded-lg shadow-lg z-50 w-72">
+                                    <div className="absolute bg-white  -right-[136px] text-black top-8  p-3 rounded-lg shadow-lg z-50 w-72">
                                         {cartItems.length === 0 ? (
                                             <p className="text-center py-3">Your Cart is Empty</p>
                                         ) : (
@@ -387,8 +387,8 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                                                             <div className="text-sm flex-1 space-y-1.5">
                                                                 <h3 className=" font-semibold">{item.name}</h3>
                                                                 <p className="text-gray-600">
-                                                                    ${item.price} * {item.quantity} = {" "}
-                                                                    <span className="font-semibold text-black">${item.price * item.quantity}</span>
+                                                                    ৳{item.price} * {item.quantity} = {" "}
+                                                                    <span className="font-semibold text-black">৳{item.price * item.quantity}</span>
                                                                 </p>
                                                                 <div className="flex gap-3">
                                                                     <button className="bg-gray-300 rounded px-2" onClick={() => handleIncrease(item)}>+</button>
@@ -402,6 +402,12 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                                                         </li>
                                                     ))}
                                                 </ul>
+                                                    <div className="border-t pt-2 mt-2 flex justify-between text-sm font-semibold">
+                                                        <span>Total:</span>
+                                                        <span>
+                                                            ৳{cartItems.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2)}
+                                                        </span>
+                                                    </div>
                                             </>
                                         )}
                                     </div>
