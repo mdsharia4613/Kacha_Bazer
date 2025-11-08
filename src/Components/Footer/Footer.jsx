@@ -9,6 +9,7 @@ import { FaBagShopping, FaCcMastercard, FaCcPaypal, FaCcVisa } from "react-icons
 import visa from "../../assets/delivary/visa_card.png";
 import master from "../../assets/delivary/masrter.png";
 import paypal from "../../assets/delivary/paypal.png";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -19,10 +20,11 @@ const Footer = () => {
                 <div>
                     <h3 className="font-semibold text-lg mb-4">Company</h3>
                     <ul className="space-y-2 text-sm">
-                        <li><a href="#" className="hover:text-[#00bc7d]">About Us</a></li>
+                        <li><a href="#about" className="hover:text-[#00bc7d]">About Us</a></li>
                         <li><a href="#" className="hover:text-[#00bc7d]">Contact Us</a></li>
                         <li><a href="#" className="hover:text-[#00bc7d]">Careers</a></li>
                         <li><a href="#" className="hover:text-[#00bc7d]">Latest News</a></li>
+                        
                     </ul>
                 </div>
 

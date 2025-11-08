@@ -11,7 +11,7 @@ const Categorys = () => {
   
     return (
         <>
-            <div className="bg-[#f3f4f6] py-5">
+            <div className="bg-[#f3f4f6] py-10">
                 <div className=" container mx-auto px-10 -py-5 mt-10 mb-10">
                     <h2 className="text-3xl font-bold text-center mb-6">Featured Categories</h2>
                     <div>
@@ -20,7 +20,7 @@ const Categorys = () => {
                     ">
                                 {
                                     categorys.map((category) => (
-                                        <div key={category.id} className="border hover:bg-[#ffedd4] border-gray-200 p-4 rounded-lg shadow space-y-1 flex items-center gap-6 transition-all duration-500 hover:shadow-xl  ">
+                                        <div key={category.id} className="border  hover:bg-[#f9ecda] border-gray-200 p-4 rounded-lg shadow space-y-1 flex items-center gap-6 transition-all duration-500 hover:shadow-xl  ">
                                             <div className="flex justify-center ">
                                                 <img className="w-15 h-auto" src={category.categoryImage} alt="" />
 

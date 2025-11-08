@@ -4,7 +4,6 @@ import BannerB from '../Banner/BannerB';
 import Categorys from '../Categorys/Categorys';
 import Delivery from '../Delivery/Delivery';
 import Discount from '../Discount/Discount';
-import FooterTop from '../FooterTop/FooterTop';
 import TopInfoBar from '../TopInfoBar/TopInfoBar';
 import TopRating from '../TopRating/TopRating';
 
