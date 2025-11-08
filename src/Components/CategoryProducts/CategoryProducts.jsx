@@ -7,8 +7,9 @@ import { HiOutlineViewfinderCircle } from "react-icons/hi2";
 import { IoClose } from "react-icons/io5";
 import { motion, AnimatePresence } from "framer-motion";
 import { ProductContext } from "../QuickView/QuickView"; // path adjust করুন
+import img from "../../assets/delivary/line.png"
 
-const CategoryProducts = () => {
+const CategoryProducts = ({onBack}) => {
     const { categoryName } = useParams();
     const [items, setItems] = useState([]);
     const { handleAddToCart } = useOutletContext();
@@ -40,7 +41,16 @@ const CategoryProducts = () => {
     };
 
     return (
-        <div className="container mx-auto mt-10 px-8 py-10">
+        <div className="container mx-auto mt-10 px-8 pt-48 pb-6">
+            {/* 🟢 Back Button */}
+            <div className="flex justify-start mb-6">
+                <button
+                    onClick={onBack}
+                    className="bg-[#00bc7d] hover:bg-[#009e68] text-white px-4 py-2 rounded-md font-medium transition duration-200 shadow-sm"
+                >
+                    ← Back
+                </button>
+            </div>
             {/* Title */}
             <div className="mb-10 max-w-2xl container mx-auto">
                 <h2 className="text-2xl font-semibold text-center mb-8">
@@ -52,7 +62,7 @@ const CategoryProducts = () => {
             </div>
 
             {/* Product Cards */}
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="flex flex-wrap justify-center gap-8 ">
                 {items.slice(0, visibleCount).map(item => {
                     const fullStars = Math.floor(item.rating);
                     const halStar = item.rating % 1 >= 0.5;
@@ -60,7 +70,7 @@ const CategoryProducts = () => {
                     return (
                         <motion.div
                             key={item.id}
-                            className="relative border border-gray-200 rounded-xl p-4 shadow hover:shadow-lg transition-all duration-300 bg-white w-72 group overflow-hidden"
+                            className="relative border bg-amber-50 border-gray-100 hover:border-green-400  rounded-xl p-4 shadow hover:shadow-lg transition-all duration-30 w-72 group overflow-hidden"
                             whileHover={{ scale: 1.03 }}
                         >
                             {/* Product Image */}
@@ -98,15 +108,6 @@ const CategoryProducts = () => {
 
                             {/* Rating & Cart */}
                             <div className="flex justify-between items-center mt-3">
-                                <button
-                                    onClick={(e) => {
-                                        e.stopPropagation();
-                                        handleAddToCart(item);
-                                    }}
-                                    className="bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
-                                >
-                                    <FaBagShopping fontSize="20" />
-                                </button>
 
                                 <div className="flex items-center gap-2">
                                     <div className="flex">
@@ -118,6 +119,19 @@ const CategoryProducts = () => {
                                     </div>
                                     <span>{item.rating}</span>
                                 </div>
+                                <button
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        handleAddToCart(item);
+                                    }}
+                                    className="bg-[#00bc7d] text-white py-2 px-2 rounded-full hover:bg-[#00a86b] transition duration-200"
+                                >
+                                    <FaBagShopping fontSize="20" />
+                                </button>
+                            </div>
+                            {/* Divider Image */}
+                            <div className="flex items-center justify-center mt-3">
+                                <img className="w-full" src={img} alt="" />
                             </div>
                         </motion.div>
                     );
@@ -147,7 +161,7 @@ const CategoryProducts = () => {
                     >
                         {/* Background Overlay */}
                         <motion.div
-                            className="absolute inset-0 bg-black/50 backdrop-blur-sm brightness-50"
+                            className="absolute inset-0  backdrop-blur-sm brightness-50"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
@@ -163,7 +177,7 @@ const CategoryProducts = () => {
                         >
                             <button
                                 onClick={() => setSelectedProduct(null)}
-                                className="absolute top-3 right-3 text-gray-500 hover:text-red-600 text-2xl"
+                                className="absolute top-3 right-3 text-gray-500 hover:text-green-700 text-2xl"
                             >
                                 <IoClose />
                             </button>
