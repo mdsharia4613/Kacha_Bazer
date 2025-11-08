@@ -4,20 +4,23 @@ import img1 from '../../assets/about/img-1.jpeg';
 import img2 from '../../assets/about/img-2.jpeg';
 import img3 from '../../assets/about/img-3.jpeg';
 import img4 from '../../assets/about/img-4.jpg'
+import ourTeam from "../../../public/OurTeam.json";
+import { iterate } from 'localforage';
+
 const About_Us = () => {
     return (
         <>
-            <div className="relative w-full">
+            <div className="relative container mx-auto mt-50 px-10">
                 <img
                     src={bammer}
                     alt="About Banner"
-                    className="w-full h-[300px] object-cover brightness-90"
+                    className="w-full h-[300px] object-cover brightness-100"
                 />
-                <h2 className="absolute inset-0 flex items-center justify-center  text-4xl md:text-5xl font-bold z-10">
+                <h2 className="absolute inset-0 flex items-center justify-center  text-4xl md:text-5xl font-bold z-10 text-gray-800">
                     About Us
                 </h2>
             </div>
-            <div className="container mx-auto my-10 p-8">
+            <div className="container mx-auto mt-10 p-8">
                 <div className='flex flex-col md:flex-row justify-between items-center gap-10'>
 
                     {/* Text Section */}
@@ -25,7 +28,7 @@ const About_Us = () => {
                         <h2 className='text-3xl md:text-4xl font-extrabold mb-5 text-gray-800'>
                             Welcome to our KachaBazar Shop
                         </h2>
-                        <p className='text-sm md:text-xl text-gray-700 leading-relaxed'>
+                        <p className='text-xs md:text-xl text-gray-700 leading-relaxed'>
                             Holisticly seize parallel metrics and functional ROI. Seamlessly revolutionize error-free internal or organic sources before effective scenarios. Progressively incentivize state of the art applications for efficient intellectual capital. Credibly leverage existing distinctive mindshare through cutting-edge schemas. Proactively procrastinate team building paradigms coordinate client-centric total transparent internal. Dynamically embrace diverse customer service and installed base paradigms. Credibly seize enterprise-wide experiences for end-to-end data. Professionally brand flexible alignments and cost effective architectures. Enthusiastically incentivize seamless communities with seamlessly facilitate revolutionary metrics with strategic theme areas.
                         </p>
                         <div className='flex flex-col md:flex-row justify-between gap-4 mt-5'>
@@ -66,9 +69,29 @@ const About_Us = () => {
                 <div className='mt-10 mb-10'>
                     <img className='w-full  object-contain rounded-xl ' src={img4} alt="About Us" />
                 </div>
-
-
             </div>
+            <div className='bg-[#f9fafb]'>
+                <div className=" text-center  container mx-auto mb-7 py-6">
+                    <h2 className="text-3xl font-semibold mb-2">Our Team</h2>
+                    <p className="max-w-2xl mx-auto text-gray-600">
+                        We’re impartial and independent, and every day we create distinctive, world-class reintermediate backend supply programmes.
+                    </p>
+
+                    <div className="mt-8 flex flex-wrap gap-8 justify-center ">
+                        {ourTeam.map((team) => (
+                            <div key={team.id} className="space-y-2 text-center">
+                                <img
+                                    className="h-64  object-cover rounded-2xl shadow-md mx-auto"
+                                    src={team.img}
+                                    alt={team.name}
+                                />
+                                <h2 className="text-xl font-semibold">{team.name}</h2>
+                                <p className="text-gray-500">{team.position}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+           </div>
 
         </>
     );

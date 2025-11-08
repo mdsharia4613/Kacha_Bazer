@@ -21,7 +21,6 @@ const Home = () => {
                 <Delivery></Delivery>
                 <Discount></Discount>
             </div>
-            <FooterTop></FooterTop>
             <TopInfoBar></TopInfoBar>
         </div>
     );

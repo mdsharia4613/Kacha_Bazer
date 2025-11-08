@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/ZR7m6Rg4/3e2d8c66-13b7-4c6f-b771-0be613ab2867.webp",
+        "name": "Nusrat Jahan",
+        "position": "Orla Dwyer"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/rRkWnx58/cf62c298-aa2c-4bba-aaca-ee9caa396a34.webp",
+        "name": "MD Sharia",
+        "position": "Co-funder, Chairman"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/tFZW2hB/080b7ae7-4260-4758-9994-26bbdcebb6a5.webp",
+        "name": "Dara Frazier",
+        "position": "Chirf Strategy Officer"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/Vpx3pRjk/84dd95d5-4381-46fe-97a7-8d25020f053c.webp",
+        "name": "Sadia Akter",
+        "position": "HR Officer"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/FqLb2R2t/d4dd44d4-77d5-4b25-99e4-f2c3903ca0a6.webp",
+        "name": "Rakibul Alam",
+        "position": "Lead Developer"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/TQnqTrX/22f50b39-be94-4690-adc7-75617b740e07.webp",
+        "name": "Tamanna Rahman",
+        "position": "Co-funder & Exeutive"
+    }
+]

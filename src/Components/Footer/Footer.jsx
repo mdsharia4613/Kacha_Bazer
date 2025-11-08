@@ -12,7 +12,7 @@ import paypal from "../../assets/delivary/paypal.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-white border-t border-gray-200 pt-10 text-gray-700">
+        <footer className="bg-white  border-gray-200 pt-10 text-gray-700">
             {/* ======= Top Footer Section ======= */}
             <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 pb-10">
                 {/* Company */}

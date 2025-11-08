@@ -3,6 +3,7 @@ import Navber from '../Components/Navber/Navber';
 import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 import QuickViewProvider from '../Components/QuickView/QuickView'; // path ঠিক করুন
+import FooterTop from '../Components/FooterTop/FooterTop';
 
 
 const Root = () => {
@@ -49,7 +50,7 @@ const Root = () => {
             <QuickViewProvider handleAddToCart={handleAddToCart}>
                 <Outlet context={{ handleAddToCart }} />
             </QuickViewProvider>
-
+            <FooterTop></FooterTop>
             <Footer></Footer>
         </div>
     );
