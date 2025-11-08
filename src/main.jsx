@@ -11,6 +11,9 @@ import About_Us from './Components/Abouts Us/About_Us';
 import CategoryProducts from './Components/CategoryProducts/CategoryProducts';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Offer from './Components/Offer/Offer';
+import Policy from './Components/Policy/Policy';
+import Terms from './Components/Trems/Terms';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +31,18 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <ContactUs></ContactUs>
+      },
+      {
+        path: "/offers",
+        element: <Offer></Offer>
+      },
+      {
+        path: "/policy",
+        element: <Policy></Policy>
+      },
+      {
+        path: "/terms",
+        element: <Terms></Terms>
       },
       {
         path: "category/:categoryName",

@@ -248,7 +248,20 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
 
                 </ul>
             </li>
-            <li><NavLink to="/offers" className={navLinkStyle}>Offers</NavLink></li>
+            <li className="relative">
+                <NavLink
+                    to="/offers"
+                    className={() =>
+                        `relative inline-block px-5 py-1 rounded-lg font-semibold transition-all duration-300 bg-[#ffe2e2] text-rose-500 hover:text-green-500`
+                    }
+                >
+                    Offers
+                    {/* জ্বলন্ত বৃত্ত */}
+                    <span className="absolute -top-2 -right-1 w-3 h-3 bg-red-500 rounded-full animate-ping"></span>
+                    <span className="absolute -top-2 -right-1 w-3 h-3 bg-red-500 rounded-full"></span>
+                </NavLink>
+            </li>
+
         </>
     );
 
@@ -258,11 +271,11 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                 <NavLink><span>🌐 GB</span> English</NavLink>
                 <ul className="dropdown-content menu bg-base-100 rounded-box w-48 p-2 shadow-lg text-gray-700 space-y-3 ">
                     <li><NavLink>Hindi</NavLink></li>
-                    <li><NavLink>Bngla</NavLink></li>
+                    <li><NavLink>Bangla</NavLink></li>
                 </ul>
                 </li>
-            <li><NavLink>Privacy Policy</NavLink></li>
-            <li><NavLink>Terms & Conditions</NavLink></li>
+            <li><NavLink to="/policy">Privacy Policy</NavLink></li>
+            <li><NavLink to="/terms">Terms & Conditions</NavLink></li>
         </>
     );
 
