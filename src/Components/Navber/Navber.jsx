@@ -15,6 +15,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import productData  from '../../../public/category_data.json';
 
+
 const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handleRemove }) => {
     const navLinkStyle = ({ isActive }) => isActive ? 'text-green-500 transition-all duration-500 bg-transparent' : 'hover:text-green-400 transition-all duration-500 hover:bg-transparent'
     const topLinks = (

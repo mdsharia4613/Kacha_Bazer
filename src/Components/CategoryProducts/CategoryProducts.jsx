@@ -8,9 +8,12 @@ import { IoClose } from "react-icons/io5";
 import { motion, AnimatePresence } from "framer-motion";
 import { ProductContext } from "../QuickView/QuickView"; // path adjust করুন
 import img from "../../assets/delivary/line.png"
+import { useNavigate } from "react-router-dom";
+
 
 const CategoryProducts = ({onBack}) => {
     const { categoryName } = useParams();
+    const navigate = useNavigate();
     const [items, setItems] = useState([]);
     const { handleAddToCart } = useOutletContext();
     const { selectedProduct, setSelectedProduct } = useContext(ProductContext);
@@ -42,15 +45,29 @@ const CategoryProducts = ({onBack}) => {
 
     return (
         <div className="container mx-auto mt-10 px-8 pt-48 pb-6">
-            {/* 🟢 Back Button */}
-            <div className="flex justify-start mb-6">
+           
+            {/* Back Button */}
+            <div className="mb-8">
                 <button
-                    onClick={onBack}
-                    className="bg-[#00bc7d] hover:bg-[#009e68] text-white px-4 py-2 rounded-md font-medium transition duration-200 shadow-sm"
+                    onClick={() => navigate(-1)}
+                    className="flex items-center gap-2 px-6 py-2 rounded-full border border-[#00bc7d]/60 text-[#00a86b] 
+               font-semibold shadow-sm backdrop-blur-md bg-white/70 hover:bg-[#00bc7d] hover:text-white 
+               hover:shadow-lg transition-all duration-300 active:scale-95"
                 >
-                    ← Back
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                        className="w-5 h-5"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Back to Categories
                 </button>
             </div>
+
             {/* Title */}
             <div className="mb-10 max-w-2xl container mx-auto">
                 <h2 className="text-2xl font-semibold text-center mb-8">

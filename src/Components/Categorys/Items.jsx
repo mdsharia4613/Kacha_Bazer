@@ -26,7 +26,6 @@ const Items = ({ selectedSub, onBack }) => {
     return (
         <div className="container mx-auto px-8 py-10">
             {/* Back Button */}
-            {/* Back Button */}
             <div className="mb-8">
                 <button
                     onClick={() => {
