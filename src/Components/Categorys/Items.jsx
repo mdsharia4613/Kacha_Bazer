@@ -9,7 +9,7 @@ import { useOutletContext } from "react-router-dom";
 import { TbCurrencyTaka } from "react-icons/tb";
 import img from "../../assets/delivary/line.png";
 
-const Items = ({ selectedSub, }) => {
+const Items = ({ selectedSub, onBack }) => {
     const { selectedProduct, setSelectedProduct } = useContext(ProductContext);
     const { handleAddToCart } = useOutletContext();
     const [visibleCount, setVisibleCount] = useState(8);
@@ -25,6 +25,35 @@ const Items = ({ selectedSub, }) => {
 
     return (
         <div className="container mx-auto px-8 py-10">
+            {/* Back Button */}
+            {/* Back Button */}
+            <div className="mb-8">
+                <button
+                    onClick={() => {
+                        if (typeof onBack === "function") onBack();
+                    }}
+                    className="flex items-center gap-2 px-5 py-2 bg-white border border-[#00bc7d] text-[#00a86b] rounded-full 
+               font-medium shadow-sm hover:bg-[#00bc7d] hover:text-white transition-all duration-300 hover:shadow-md"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                        className="w-5 h-5"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M15 19l-7-7 7-7"
+                        />
+                    </svg>
+                    Back to Categories
+                </button>
+            </div>
+
+
            
             {/* Title */}
             <div className="mb-10 max-w-2xl container mx-auto">
