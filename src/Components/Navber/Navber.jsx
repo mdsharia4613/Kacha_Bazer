@@ -194,7 +194,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
             <li><NavLink to="/about" className={navLinkStyle}>About Us</NavLink></li>
             <li><NavLink to="/contact" className={navLinkStyle}>Contact Us</NavLink></li>
             <li className="dropdown dropdown-hover transition-all ">
-                <NavLink to="/pages" className={navLinkStyle}>Pages < FaAngleDown /></NavLink>
+                <NavLink to="/" className={navLinkStyle}>Pages < FaAngleDown /></NavLink>
                 <ul className="dropdown-content menu bg-base-100 rounded-box w-60 p-2 shadow-lg text-gray-700 space-y-3 ">
                     <li>
                         <NavLink className='flex items-center text-[16px]'>
