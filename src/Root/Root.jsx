@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 import QuickViewProvider from '../Components/QuickView/QuickView'; 
 import FooterTop from '../Components/FooterTop/FooterTop';
+import Swal from 'sweetalert2';
 
 
 const Root = () => {
@@ -13,7 +14,8 @@ const Root = () => {
         setCartItems(prevItem => {
             const itemExists = prevItem.find(item => item.id === product.id);
             if(itemExists){
-                alert('Item already in cart');
+                Swal.fire("SweetAlert2 is working!");
+
                 return prevItem;
             }
             return [...prevItem, {...product, quantity: 1}]
