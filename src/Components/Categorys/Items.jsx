@@ -125,7 +125,7 @@ const Items = ({ selectedSub, onBack }) => {
                                 </div>
                                 <button
                                     onClick={(e) => {
-                                        e.stopPropagation(); // prevent modal trigger
+                                        e.stopPropagation();
                                         handleAddToCart(item);
                                     }}
                                     className="bg-[#00bc7d] text-white py-2 px-2 cursor-pointer rounded-full hover:bg-[#00a86b] transition duration-200"

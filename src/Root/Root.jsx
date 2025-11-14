@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Navber from '../Components/Navber/Navber';
 import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
-import QuickViewProvider from '../Components/QuickView/QuickView'; // path ঠিক করুন
+import QuickViewProvider from '../Components/QuickView/QuickView'; 
 import FooterTop from '../Components/FooterTop/FooterTop';
 
 
