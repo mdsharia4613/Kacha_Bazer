@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import img from "../../assets/my_img/My_pic.png"
 
 const UserProfile = () => {
     const [activeTab, setActiveTab] = useState("profile");
@@ -29,7 +30,7 @@ const UserProfile = () => {
                 {/* Sidebar */}
                 <div className="md:w-1/4 bg-white rounded-2xl shadow-lg p-5 space-y-4">
                     <div className="flex flex-col items-center space-y-3">
-                        <img src={user.profilePicture} alt="Profile" className="w-24 h-24 rounded-full shadow-md" />
+                        <img src={img} alt="Profile" className="w-24 h-24 rounded-full shadow-md" />
                         <h2 className="font-bold text-xl">{user.name}</h2>
                         <p className="text-sm text-gray-500">{user.membership} Member</p>
                     </div>
