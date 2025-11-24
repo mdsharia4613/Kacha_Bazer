@@ -217,7 +217,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                         </NavLink>
                     </li>
                     <li>
-                         <NavLink className='flex items-center text-[16px]'>
+                         <NavLink to="/about" className='flex items-center text-[16px]'>
                             <User />
                             <p>About Us</p>
                         </NavLink>
