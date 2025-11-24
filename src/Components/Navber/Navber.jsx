@@ -22,7 +22,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
         <>
             <li><NavLink to="about">About |</NavLink></li>
             <li><NavLink to="contact">Contact Us |</NavLink></li>
-            <li><NavLink to="account">My Account</NavLink></li>
+            <li><NavLink to="/userprofile">My Account</NavLink></li>
             <li className="flex items-center gap-1">
                 <User size={14} />
                 <NavLink to="/login">Login</NavLink>
@@ -415,7 +415,9 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
                                 )}
                             </div>
                             <FaRegBell className="cursor-pointer hover:text-yellow-300 transition" />
-                            <User className="cursor-pointer hover:text-yellow-300 transition" />
+                            <Link to="/userprofile">
+                                <User className="cursor-pointer hover:text-yellow-300 transition" />
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -17,6 +17,7 @@ import Terms from './Components/Trems/Terms';
 import Login from './pages/Login';
 import UserProvider from './UserContext';
 import AuthLayout from './AuthLayout';
+import UserProfile from './Components/userprofile/UserProfile';
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
         path: '/product/:id',
         element: <ProductDetails></ProductDetails>
       },
+      {
+        path: "userprofile",
+        element: <UserProfile></UserProfile>
+      }
      
     ]
   },
