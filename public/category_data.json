@@ -297,51 +297,8 @@
             "stockStatus": "In Stock",
             "stockCode": "STK-1056",
             "rating": 3.9
-          },
-          {
-            "id": 1057,
-            "name": "Kiwi - 1pc",
-            "description": "Kiwi - 1pc — high quality, fresh & carefully selected for your needs.",
-            "price": 1093,
-            "image": "fruits_vegetables_fresh_fruit_12.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1057",
-            "rating": 3.3
-          },
-          {
-            "id": 1058,
-            "name": "Grapes - 1kg",
-            "description": "Grapes - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1492,
-            "image": "fruits_vegetables_fresh_fruit_13.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.2
-          },
-          {
-            "id": 1059,
-            "name": "Pomegranate - 1kg",
-            "description": "Pomegranate - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 390,
-            "image": "fruits_vegetables_fresh_fruit_14.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1059",
-            "rating": 4.3
-          },
-          {
-            "id": 1060,
-            "name": "Custard Apple - 1kg",
-            "description": "Custard Apple - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 990,
-            "image": "fruits_vegetables_fresh_fruit_15.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1060",
-            "rating": 4.0
           }
+          
         ]
       }
     ]
@@ -766,105 +723,6 @@
             "stockStatus": "In Stock",
             "stockCode": "STK-1066",
             "rating": 3.5
-          },
-          {
-            "id": 1067,
-            "name": "Millet Flour - 1kg",
-            "description": "Millet Flour - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1321,
-            "image": "cooking_essentials_flour_7.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1067",
-            "rating": 3.9
-          },
-          {
-            "id": 1068,
-            "name": "Barley Flour - 1kg",
-            "description": "Barley Flour - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 819,
-            "image": "cooking_essentials_flour_8.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.8
-          },
-          {
-            "id": 1069,
-            "name": "Buckwheat Flour - 500g",
-            "description": "Buckwheat Flour - 500g — high quality, fresh & carefully selected for your needs.",
-            "price": 230,
-            "image": "cooking_essentials_flour_9.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1069",
-            "rating": 3.2
-          },
-          {
-            "id": 1070,
-            "name": "Spelt Flour - 1kg",
-            "description": "Spelt Flour - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1053,
-            "image": "cooking_essentials_flour_10.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.6
-          },
-          {
-            "id": 1071,
-            "name": "Ragi Flour - 1kg",
-            "description": "Ragi Flour - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 334,
-            "image": "cooking_essentials_flour_11.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1071",
-            "rating": 3.0
-          },
-          {
-            "id": 1072,
-            "name": "Oats Flour - 500g",
-            "description": "Oats Flour - 500g — high quality, fresh & carefully selected for your needs.",
-            "price": 510,
-            "image": "cooking_essentials_flour_12.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1072",
-            "rating": 4.0
-          },
-          {
-            "id": 1073,
-            "name": "Multi-grain Flour - 1kg",
-            "description": "Multi-grain Flour - 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 577,
-            "image": "cooking_essentials_flour_13.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1073",
-            "rating": 3.3
-          },
-          {
-            "id": 1074,
-            "name": "Coconut Flour - 500g",
-            "description": "Coconut Flour - 500g — high quality, fresh & carefully selected for your needs.",
-            "price": 800,
-            "image": "cooking_essentials_flour_14.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1074",
-            "rating": 3.9
-          },
-          {
-            "id": 1075,
-            "name": "Tapioca Flour - 500g",
-            "description": "Tapioca Flour - 500g — high quality, fresh & carefully selected for your needs.",
-            "price": 547,
-            "image": "cooking_essentials_flour_15.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.5
           }
         ]
       },
@@ -958,83 +816,6 @@
             "stockStatus": "In Stock",
             "stockCode": "STK-1083",
             "rating": 4.0
-          },
-          {
-            "id": 1084,
-            "name": "Sesame Oil - 250ml",
-            "description": "Sesame Oil - 250ml — high quality, fresh & carefully selected for your needs.",
-            "price": 332,
-            "image": "cooking_essentials_oil_9.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1084",
-            "rating": 4.3
-          },
-          {
-            "id": 1085,
-            "name": "Coconut Oil - 250ml",
-            "description": "Coconut Oil - 250ml — high quality, fresh & carefully selected for your needs.",
-            "price": 1047,
-            "image": "cooking_essentials_oil_10.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.6
-          },
-          {
-            "id": 1086,
-            "name": "Refined Vegetable Oil - 1L",
-            "description": "Refined Vegetable Oil - 1L — high quality, fresh & carefully selected for your needs.",
-            "price": 300,
-            "image": "cooking_essentials_oil_11.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.1
-          },
-          {
-            "id": 1087,
-            "name": "Corn Oil - 1L",
-            "description": "Corn Oil - 1L — high quality, fresh & carefully selected for your needs.",
-            "price": 1213,
-            "image": "cooking_essentials_oil_12.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1087",
-            "rating": 4.6
-          },
-          {
-            "id": 1088,
-            "name": "Avocado Oil - 250ml",
-            "description": "Avocado Oil - 250ml — high quality, fresh & carefully selected for your needs.",
-            "price": 1171,
-            "image": "cooking_essentials_oil_13.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.9
-          },
-          {
-            "id": 1089,
-            "name": "Safflower Oil - 1L",
-            "description": "Safflower Oil - 1L — high quality, fresh & carefully selected for your needs.",
-            "price": 299,
-            "image": "cooking_essentials_oil_14.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1089",
-            "rating": 4.0
-          },
-          {
-            "id": 1090,
-            "name": "Ghee (Clarified Butter) - 500g",
-            "description": "Ghee (Clarified Butter) - 500g — high quality, fresh & carefully selected for your needs.",
-            "price": 1490,
-            "image": "cooking_essentials_oil_15.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.3
           }
         ]
       }
@@ -1135,83 +916,6 @@
             "stockStatus": "In Stock",
             "stockCode": "STK-1098",
             "rating": 4.2
-          },
-          {
-            "id": 1099,
-            "name": "Glucose Biscuits 200g",
-            "description": "Glucose Biscuits 200g — high quality, fresh & carefully selected for your needs.",
-            "price": 561,
-            "image": "biscuits_cakes_biscuits_9.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1099",
-            "rating": 4.5
-          },
-          {
-            "id": 1100,
-            "name": "Sugar-free Biscuits 150g",
-            "description": "Sugar-free Biscuits 150g — high quality, fresh & carefully selected for your needs.",
-            "price": 55,
-            "image": "biscuits_cakes_biscuits_10.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1100",
-            "rating": 4.0
-          },
-          {
-            "id": 1101,
-            "name": "Jam Biscuits 150g",
-            "description": "Jam Biscuits 150g — high quality, fresh & carefully selected for your needs.",
-            "price": 780,
-            "image": "biscuits_cakes_biscuits_11.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1101",
-            "rating": 4.7
-          },
-          {
-            "id": 1102,
-            "name": "Milk Biscuits 200g",
-            "description": "Milk Biscuits 200g — high quality, fresh & carefully selected for your needs.",
-            "price": 468,
-            "image": "biscuits_cakes_biscuits_12.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1102",
-            "rating": 3.1
-          },
-          {
-            "id": 1103,
-            "name": "Almond Biscuit 150g",
-            "description": "Almond Biscuit 150g — high quality, fresh & carefully selected for your needs.",
-            "price": 988,
-            "image": "biscuits_cakes_biscuits_13.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1103",
-            "rating": 4.9
-          },
-          {
-            "id": 1104,
-            "name": "Coconut Biscuit 150g",
-            "description": "Coconut Biscuit 150g — high quality, fresh & carefully selected for your needs.",
-            "price": 515,
-            "image": "biscuits_cakes_biscuits_14.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1104",
-            "rating": 4.8
-          },
-          {
-            "id": 1105,
-            "name": "Peanut Butter Biscuits 150g",
-            "description": "Peanut Butter Biscuits 150g — high quality, fresh & carefully selected for your needs.",
-            "price": 1149,
-            "image": "biscuits_cakes_biscuits_15.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1105",
-            "rating": 4.3
           }
         ]
       },
@@ -1223,7 +927,7 @@
             "name": "Vanilla Sponge Cake 1kg",
             "description": "Vanilla Sponge Cake 1kg — high quality, fresh & carefully selected for your needs.",
             "price": 1106,
-            "image": "biscuits_cakes_cakes_1.jpg",
+            "image": "https://i.ibb.co.com/1tHBD7rd/Vanilla-Sponge-Cake.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
             "stockCode": "STK-1106",
@@ -1234,154 +938,11 @@
             "name": "Chocolate Fudge Cake 1kg",
             "description": "Chocolate Fudge Cake 1kg — high quality, fresh & carefully selected for your needs.",
             "price": 1310,
-            "image": "biscuits_cakes_cakes_2.jpg",
+            "image": "https://i.ibb.co.com/RkdLZNhZ/Chocolate-Fudge-Cake.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
             "stockCode": "STK-1107",
             "rating": 4.8
-          },
-          {
-            "id": 1108,
-            "name": "Black Forest Cake 1kg",
-            "description": "Black Forest Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 90,
-            "image": "biscuits_cakes_cakes_3.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1108",
-            "rating": 3.7
-          },
-          {
-            "id": 1109,
-            "name": "Red Velvet 1kg",
-            "description": "Red Velvet 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 202,
-            "image": "biscuits_cakes_cakes_4.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1109",
-            "rating": 3.6
-          },
-          {
-            "id": 1110,
-            "name": "Pineapple Cake 1kg",
-            "description": "Pineapple Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1255,
-            "image": "biscuits_cakes_cakes_5.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1110",
-            "rating": 3.6
-          },
-          {
-            "id": 1111,
-            "name": "Butter Cake 1kg",
-            "description": "Butter Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1242,
-            "image": "biscuits_cakes_cakes_6.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.0
-          },
-          {
-            "id": 1112,
-            "name": "Carrot Cake 1kg",
-            "description": "Carrot Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1259,
-            "image": "biscuits_cakes_cakes_7.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1112",
-            "rating": 4.1
-          },
-          {
-            "id": 1113,
-            "name": "Coffee Walnut Cake 1kg",
-            "description": "Coffee Walnut Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 449,
-            "image": "biscuits_cakes_cakes_8.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1113",
-            "rating": 4.3
-          },
-          {
-            "id": 1114,
-            "name": "Lemon Drizzle Cake 1kg",
-            "description": "Lemon Drizzle Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 67,
-            "image": "biscuits_cakes_cakes_9.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1114",
-            "rating": 4.1
-          },
-          {
-            "id": 1115,
-            "name": "Fruit Cake 1kg",
-            "description": "Fruit Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1299,
-            "image": "biscuits_cakes_cakes_10.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.5
-          },
-          {
-            "id": 1116,
-            "name": "Cheesecake 1kg",
-            "description": "Cheesecake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 475,
-            "image": "biscuits_cakes_cakes_11.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.6
-          },
-          {
-            "id": 1117,
-            "name": "Brownie Cake 1kg",
-            "description": "Brownie Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 1358,
-            "image": "biscuits_cakes_cakes_12.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1117",
-            "rating": 3.9
-          },
-          {
-            "id": 1118,
-            "name": "Matcha Cake 1kg",
-            "description": "Matcha Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 46,
-            "image": "biscuits_cakes_cakes_13.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1118",
-            "rating": 3.8
-          },
-          {
-            "id": 1119,
-            "name": "Tres Leches Cake 1kg",
-            "description": "Tres Leches Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 305,
-            "image": "biscuits_cakes_cakes_14.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1119",
-            "rating": 3.6
-          },
-          {
-            "id": 1120,
-            "name": "Opera Cake 1kg",
-            "description": "Opera Cake 1kg — high quality, fresh & carefully selected for your needs.",
-            "price": 631,
-            "image": "biscuits_cakes_cakes_15.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.1
           }
         ]
       }
@@ -1400,7 +961,7 @@
             "name": "Countertop Water Filter - 6L",
             "description": "Countertop Water Filter - 6L — high quality, fresh & carefully selected for your needs.",
             "price": 419,
-            "image": "household_tools_water_filter_1.jpg",
+            "image": "https://i.ibb.co.com/VpPPvy7R/Countertop-Water-Filter.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
             "stockCode": "STK-1121",
@@ -1411,154 +972,11 @@
             "name": "Reverse Osmosis System - 5 Stage",
             "description": "Reverse Osmosis System - 5 Stage — high quality, fresh & carefully selected for your needs.",
             "price": 398,
-            "image": "household_tools_water_filter_2.jpg",
+            "image": "https://i.ibb.co.com/PGg3329z/Reverse-Osmosis-System.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
             "stockCode": "STK-1122",
             "rating": 3.4
-          },
-          {
-            "id": 1123,
-            "name": "Gravity Water Purifier - 10L",
-            "description": "Gravity Water Purifier - 10L — high quality, fresh & carefully selected for your needs.",
-            "price": 309,
-            "image": "household_tools_water_filter_3.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1123",
-            "rating": 3.7
-          },
-          {
-            "id": 1124,
-            "name": "UV Water Purifier - 8L",
-            "description": "UV Water Purifier - 8L — high quality, fresh & carefully selected for your needs.",
-            "price": 401,
-            "image": "household_tools_water_filter_4.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.9
-          },
-          {
-            "id": 1125,
-            "name": "Inline Faucet Filter",
-            "description": "Inline Faucet Filter — high quality, fresh & carefully selected for your needs.",
-            "price": 420,
-            "image": "household_tools_water_filter_5.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1125",
-            "rating": 3.8
-          },
-          {
-            "id": 1126,
-            "name": "Activated Carbon Filter Cartridge",
-            "description": "Activated Carbon Filter Cartridge — high quality, fresh & carefully selected for your needs.",
-            "price": 107,
-            "image": "household_tools_water_filter_6.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.1
-          },
-          {
-            "id": 1127,
-            "name": "Ceramic Filter Element",
-            "description": "Ceramic Filter Element — high quality, fresh & carefully selected for your needs.",
-            "price": 900,
-            "image": "household_tools_water_filter_7.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1127",
-            "rating": 3.1
-          },
-          {
-            "id": 1128,
-            "name": "Sediment Filter 5 micron",
-            "description": "Sediment Filter 5 micron — high quality, fresh & carefully selected for your needs.",
-            "price": 639,
-            "image": "household_tools_water_filter_8.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1128",
-            "rating": 3.2
-          },
-          {
-            "id": 1129,
-            "name": "UF Water Purifier",
-            "description": "UF Water Purifier — high quality, fresh & carefully selected for your needs.",
-            "price": 137,
-            "image": "household_tools_water_filter_9.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1129",
-            "rating": 3.8
-          },
-          {
-            "id": 1130,
-            "name": "Alkaline Water Filter Cartridge",
-            "description": "Alkaline Water Filter Cartridge — high quality, fresh & carefully selected for your needs.",
-            "price": 335,
-            "image": "household_tools_water_filter_10.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1130",
-            "rating": 4.5
-          },
-          {
-            "id": 1131,
-            "name": "Portable Water Filter Bottle",
-            "description": "Portable Water Filter Bottle — high quality, fresh & carefully selected for your needs.",
-            "price": 511,
-            "image": "household_tools_water_filter_11.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1131",
-            "rating": 4.3
-          },
-          {
-            "id": 1132,
-            "name": "Mineralizer Cartridge",
-            "description": "Mineralizer Cartridge — high quality, fresh & carefully selected for your needs.",
-            "price": 638,
-            "image": "household_tools_water_filter_12.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1132",
-            "rating": 4.9
-          },
-          {
-            "id": 1133,
-            "name": "RO Membrane 75 GPD",
-            "description": "RO Membrane 75 GPD — high quality, fresh & carefully selected for your needs.",
-            "price": 793,
-            "image": "household_tools_water_filter_13.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1133",
-            "rating": 4.8
-          },
-          {
-            "id": 1134,
-            "name": "Pressure Pump for RO",
-            "description": "Pressure Pump for RO — high quality, fresh & carefully selected for your needs.",
-            "price": 1068,
-            "image": "household_tools_water_filter_14.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1134",
-            "rating": 4.7
-          },
-          {
-            "id": 1135,
-            "name": "Replacement Filter Set",
-            "description": "Replacement Filter Set — high quality, fresh & carefully selected for your needs.",
-            "price": 1394,
-            "image": "household_tools_water_filter_15.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1135",
-            "rating": 3.5
           }
         ]
       },
@@ -1570,7 +988,7 @@
             "name": "Floor Mop with Bucket",
             "description": "Floor Mop with Bucket — high quality, fresh & carefully selected for your needs.",
             "price": 1093,
-            "image": "household_tools_cleaning_tools_1.jpg",
+            "image": "https://i.ibb.co.com/PGg3329z/Reverse-Osmosis-System.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
             "stockCode": "STK-1136",
@@ -1581,154 +999,11 @@
             "name": "Microfiber Cloth Set",
             "description": "Microfiber Cloth Set — high quality, fresh & carefully selected for your needs.",
             "price": 931,
-            "image": "household_tools_cleaning_tools_2.jpg",
+            "image": "https://i.ibb.co.com/VWM1JTVz/Microfiber-Cloth-Set.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
             "stockCode": null,
             "rating": 3.7
-          },
-          {
-            "id": 1138,
-            "name": "Scrub Brush Set",
-            "description": "Scrub Brush Set — high quality, fresh & carefully selected for your needs.",
-            "price": 919,
-            "image": "household_tools_cleaning_tools_3.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.7
-          },
-          {
-            "id": 1139,
-            "name": "Dishwashing Brush",
-            "description": "Dishwashing Brush — high quality, fresh & carefully selected for your needs.",
-            "price": 1209,
-            "image": "household_tools_cleaning_tools_4.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1139",
-            "rating": 4.2
-          },
-          {
-            "id": 1140,
-            "name": "Sponge Scourer Pack",
-            "description": "Sponge Scourer Pack — high quality, fresh & carefully selected for your needs.",
-            "price": 666,
-            "image": "household_tools_cleaning_tools_5.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1140",
-            "rating": 3.4
-          },
-          {
-            "id": 1141,
-            "name": "Broom & Dustpan Set",
-            "description": "Broom & Dustpan Set — high quality, fresh & carefully selected for your needs.",
-            "price": 890,
-            "image": "household_tools_cleaning_tools_6.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1141",
-            "rating": 3.2
-          },
-          {
-            "id": 1142,
-            "name": "Vacuum Cleaner Handheld",
-            "description": "Vacuum Cleaner Handheld — high quality, fresh & carefully selected for your needs.",
-            "price": 217,
-            "image": "household_tools_cleaning_tools_7.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.5
-          },
-          {
-            "id": 1143,
-            "name": "Window Squeegee",
-            "description": "Window Squeegee — high quality, fresh & carefully selected for your needs.",
-            "price": 44,
-            "image": "household_tools_cleaning_tools_8.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1143",
-            "rating": 3.6
-          },
-          {
-            "id": 1144,
-            "name": "Toilet Brush Set",
-            "description": "Toilet Brush Set — high quality, fresh & carefully selected for your needs.",
-            "price": 491,
-            "image": "household_tools_cleaning_tools_9.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1144",
-            "rating": 3.6
-          },
-          {
-            "id": 1145,
-            "name": "Carpet Stain Remover Spray",
-            "description": "Carpet Stain Remover Spray — high quality, fresh & carefully selected for your needs.",
-            "price": 1158,
-            "image": "household_tools_cleaning_tools_10.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1145",
-            "rating": 4.5
-          },
-          {
-            "id": 1146,
-            "name": "Glass Cleaner 500ml",
-            "description": "Glass Cleaner 500ml — high quality, fresh & carefully selected for your needs.",
-            "price": 489,
-            "image": "household_tools_cleaning_tools_11.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1146",
-            "rating": 4.7
-          },
-          {
-            "id": 1147,
-            "name": "Floor Cleaner Liquid 1L",
-            "description": "Floor Cleaner Liquid 1L — high quality, fresh & carefully selected for your needs.",
-            "price": 1212,
-            "image": "household_tools_cleaning_tools_12.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.4
-          },
-          {
-            "id": 1148,
-            "name": "Multi-surface Cleaner 500ml",
-            "description": "Multi-surface Cleaner 500ml — high quality, fresh & carefully selected for your needs.",
-            "price": 52,
-            "image": "household_tools_cleaning_tools_13.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1148",
-            "rating": 4.6
-          },
-          {
-            "id": 1149,
-            "name": "Rubber Gloves Pair",
-            "description": "Rubber Gloves Pair — high quality, fresh & carefully selected for your needs.",
-            "price": 477,
-            "image": "household_tools_cleaning_tools_14.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1149",
-            "rating": 3.3
-          },
-          {
-            "id": 1150,
-            "name": "Lint Roller",
-            "description": "Lint Roller — high quality, fresh & carefully selected for your needs.",
-            "price": 836,
-            "image": "household_tools_cleaning_tools_15.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1150",
-            "rating": 4.1
           }
         ]
       },
@@ -1740,7 +1015,7 @@
             "name": "Mosquito Coil Pack",
             "description": "Mosquito Coil Pack — high quality, fresh & carefully selected for your needs.",
             "price": 1136,
-            "image": "household_tools_pest_control_1.jpg",
+            "image": "https://i.ibb.co.com/S4CDW2LM/Mosquito-Coil-Pack.jpg",
             "phone": "+8801700000000",
             "stockStatus": "Out Stock",
             "stockCode": null,
@@ -1751,154 +1026,11 @@
             "name": "Insecticide Spray 400ml",
             "description": "Insecticide Spray 400ml — high quality, fresh & carefully selected for your needs.",
             "price": 392,
-            "image": "household_tools_pest_control_2.jpg",
+            "image": "https://i.ibb.co.com/27w0Fybx/Insecticide-Spray.jpg",
             "phone": "+8801700000000",
             "stockStatus": "In Stock",
             "stockCode": "STK-1152",
             "rating": 3.5
-          },
-          {
-            "id": 1153,
-            "name": "Rodent Trap (Snap)",
-            "description": "Rodent Trap (Snap) — high quality, fresh & carefully selected for your needs.",
-            "price": 740,
-            "image": "household_tools_pest_control_3.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.8
-          },
-          {
-            "id": 1154,
-            "name": "Electronic Mosquito Killer Lamp",
-            "description": "Electronic Mosquito Killer Lamp — high quality, fresh & carefully selected for your needs.",
-            "price": 353,
-            "image": "household_tools_pest_control_4.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1154",
-            "rating": 4.9
-          },
-          {
-            "id": 1155,
-            "name": "Cockroach Gel Bait",
-            "description": "Cockroach Gel Bait — high quality, fresh & carefully selected for your needs.",
-            "price": 415,
-            "image": "household_tools_pest_control_5.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1155",
-            "rating": 3.7
-          },
-          {
-            "id": 1156,
-            "name": "Rat Glue Board",
-            "description": "Rat Glue Board — high quality, fresh & carefully selected for your needs.",
-            "price": 1382,
-            "image": "household_tools_pest_control_6.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.6
-          },
-          {
-            "id": 1157,
-            "name": "Ant Bait Station",
-            "description": "Ant Bait Station — high quality, fresh & carefully selected for your needs.",
-            "price": 212,
-            "image": "household_tools_pest_control_7.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1157",
-            "rating": 4.7
-          },
-          {
-            "id": 1158,
-            "name": "Fly Paper Strips",
-            "description": "Fly Paper Strips — high quality, fresh & carefully selected for your needs.",
-            "price": 218,
-            "image": "household_tools_pest_control_8.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.8
-          },
-          {
-            "id": 1159,
-            "name": "Termite Inspection Dust 250g",
-            "description": "Termite Inspection Dust 250g — high quality, fresh & carefully selected for your needs.",
-            "price": 605,
-            "image": "household_tools_pest_control_9.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.4
-          },
-          {
-            "id": 1160,
-            "name": "Bed Bug Spray 200ml",
-            "description": "Bed Bug Spray 200ml — high quality, fresh & carefully selected for your needs.",
-            "price": 368,
-            "image": "household_tools_pest_control_10.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 5.0
-          },
-          {
-            "id": 1161,
-            "name": "Pest Control Fogger 200ml",
-            "description": "Pest Control Fogger 200ml — high quality, fresh & carefully selected for your needs.",
-            "price": 923,
-            "image": "household_tools_pest_control_11.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1161",
-            "rating": 3.7
-          },
-          {
-            "id": 1162,
-            "name": "Natural Neem Spray 250ml",
-            "description": "Natural Neem Spray 250ml — high quality, fresh & carefully selected for your needs.",
-            "price": 1175,
-            "image": "household_tools_pest_control_12.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1162",
-            "rating": 3.3
-          },
-          {
-            "id": 1163,
-            "name": "Ultrasonic Pest Repeller",
-            "description": "Ultrasonic Pest Repeller — high quality, fresh & carefully selected for your needs.",
-            "price": 736,
-            "image": "household_tools_pest_control_13.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 3.1
-          },
-          {
-            "id": 1164,
-            "name": "Wasps Nest Deterrent",
-            "description": "Wasps Nest Deterrent — high quality, fresh & carefully selected for your needs.",
-            "price": 74,
-            "image": "household_tools_pest_control_14.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "In Stock",
-            "stockCode": "STK-1164",
-            "rating": 4.0
-          },
-          {
-            "id": 1165,
-            "name": "Mosquito Repellent Cream",
-            "description": "Mosquito Repellent Cream — high quality, fresh & carefully selected for your needs.",
-            "price": 365,
-            "image": "household_tools_pest_control_15.jpg",
-            "phone": "+8801700000000",
-            "stockStatus": "Out Stock",
-            "stockCode": null,
-            "rating": 4.2
           }
         ]
       }
