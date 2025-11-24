@@ -25,7 +25,7 @@ const Navber = ({ productCount, cartItems, handleIncrease, handleDecrease, handl
             <li><NavLink to="account">My Account</NavLink></li>
             <li className="flex items-center gap-1">
                 <User size={14} />
-                <NavLink to="login">Login</NavLink>
+                <NavLink to="/login">Login</NavLink>
             </li>
         </>
     );

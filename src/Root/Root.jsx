@@ -5,6 +5,7 @@ import Footer from '../Components/Footer/Footer';
 import QuickViewProvider from '../Components/QuickView/QuickView'; 
 import FooterTop from '../Components/FooterTop/FooterTop';
 import Swal from 'sweetalert2';
+import { Toaster } from 'react-hot-toast';
 
 
 const Root = () => {
@@ -49,8 +50,10 @@ const Root = () => {
     return (
         <div className='overflow-hidden'>
             <Navber productCount={productCount} cartItems={cartItems} handleIncrease={handleIncrease} handleDecrease={handleDecrease} handleRemove={handleRemove}></Navber>
-            <QuickViewProvider handleAddToCart={handleAddToCart}>
+            
+            <QuickViewProvider handleAddToCart={  handleAddToCart}>
                 <Outlet context={{ handleAddToCart }} />
+                <Toaster></Toaster>
             </QuickViewProvider>
             <FooterTop></FooterTop>
             <Footer></Footer>

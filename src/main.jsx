@@ -14,6 +14,9 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Offer from './Components/Offer/Offer';
 import Policy from './Components/Policy/Policy';
 import Terms from './Components/Trems/Terms';
+import Login from './pages/Login';
+import UserProvider from './UserContext';
+import AuthLayout from './AuthLayout';
 
 const router = createBrowserRouter([
   {
@@ -51,14 +54,27 @@ const router = createBrowserRouter([
       {
         path: '/product/:id',
         element: <ProductDetails></ProductDetails>
-      }
+      },
+     
     ]
   },
+
+  // 🔥 LOGIN PAGE OUTSIDE ROOT LAYOUT
+  {
+    path: "/login",
+    element: (
+      <AuthLayout>
+        <Login />
+      </AuthLayout>
+    ),
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <UserProvider>
+      <RouterProvider router={router} />
+    </UserProvider>
 
   </StrictMode>,
 )
