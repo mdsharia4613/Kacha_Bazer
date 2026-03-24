@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import img from "../../assets/my_img/My_pic.png"
+import img from "../../assets/my_img/sagur bhai.jpg";
 
 const UserProfile = () => {
     const [activeTab, setActiveTab] = useState("profile");
 
     const user = {
-        name: "MD Sharia",
-        email: "sharia@example.com",
-        phone: "+880 123456789",
+        name: "Sagar Barua",
+        email: "Sagarbarua1010@gmail.com",
+        phone: "+880 1856609099",
         membership: "Premium",
         profilePicture: "https://i.pravatar.cc/150?img=12"
     };
