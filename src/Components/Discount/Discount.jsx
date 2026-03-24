@@ -24,7 +24,7 @@ const Discount = () => {
             </div>
 
             <div className="container mx-auto my-10 ">
-                <div className="flex flex-wrap gap-5 max-w-[1350px] mx-auto ">
+                <div className="flex flex-wrap items-center justify-center gap-5 max-w-[1350px] mx-auto ">
                     {discountData.map((item) => {
                         const fullStar = Math.floor(item.rating);
                         const halfStar = item.rating % 1 >= 0.5;
@@ -146,7 +146,7 @@ const Discount = () => {
 
                             {/* Modal Box */}
                             <motion.div
-                                className="relative bg-white rounded-lg shadow-lg p-6 w-full md:w-[700px] z-10"
+                                className="relative bg-white rounded-lg shadow-lg p-6 w-[700px] max-w-[95vw] z-10"
                                 initial={{ scale: 0.8, opacity: 0 }}
                                 animate={{ scale: 1, opacity: 1 }}
                                 exit={{ scale: 0.8, opacity: 0 }}
