@@ -59,10 +59,10 @@ const Footer = () => {
                         </h2>
                     </div>
                     <p className="text-sm mb-2">
-                        987 Andre Plain Suite High Street 838, Lake Hestertown, USA
+                        DHAKA , BANGLADESH
                     </p>
                     <p className="text-sm">Tel : 02.356.1666</p>
-                    <p className="text-sm">Email : ccruidk@test.com</p>
+                    <p className="text-sm">Email : Sagarbarua1010@gmail.com</p>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@ const Footer = () => {
                     {/* Call Us */}
                     <div className="text-center">
                         <p className="text-gray-600 text-sm">Call Us</p>
-                        <p className="text-[#00bc7d] font-bold text-lg">+6599887766</p>
+                        <p className="text-[#00bc7d] font-bold text-lg">+880 1856609099</p>
                     </div>
 
                     {/* Payment Methods */}
